@@ -1,6 +1,6 @@
-# A study on 2D ads in VR vs mobile environments - Mobile Version
+# A study on 2D ads in VR vs mobile environments - VR Version
 
-## This is the mobile version of the game used as a experiment vehicle.
+## This is the VR version of the game used as a experiment vehicle.
 ### Screenshots and more info to follow
 
 
