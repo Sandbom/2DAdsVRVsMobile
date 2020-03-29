@@ -114,7 +114,9 @@
     <Compile Include="Assets\PolyToolkit\Scripts\PtAssetObject.cs" />
     <Compile Include="Assets\Script\FruitBehaviour.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
+    <Compile Include="Assets\Script\MenuFunctionality.cs" />
     <Compile Include="Assets\Script\SelfDestruct.cs" />
+    <Compile Include="Assets\Script\SoundManager.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Blocks\BlocksPaper\BlocksPaper.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -34,6 +34,9 @@ public class FruitBehaviour : MonoBehaviour
 
         if (isSliced)
         {
+
+            int soundIndex = Random.Range(0, 2);
+            SoundManager.Instance.PlaySound(soundIndex);
             Destroy(gameObject);
         }
 

@@ -45,6 +45,11 @@ public class GameManager : MonoBehaviour
         return fb;
     }
 
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene(1);
+    }
+
     public void NewGame()
     {
         score = 0;
@@ -77,7 +82,7 @@ public class GameManager : MonoBehaviour
 
     public void RestartGame()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(2);
     }
 
     public void LoseLifePoint()
@@ -124,7 +129,6 @@ public class GameManager : MonoBehaviour
     {
         Instance = this;
     }
-
 
     // Start is called before the first frame update
     private void Start()
@@ -173,7 +177,9 @@ public class GameManager : MonoBehaviour
         {
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z = -1;
+            transform.position = pos;
             trail.position = pos;
+            //trail = Instantiate(trail, transform);
 
             Collider2D[] thisFruitFrame = Physics2D.OverlapPointAll(new Vector2(pos.x, pos.y), LayerMask.GetMask("Fruit"));
 
@@ -197,6 +203,10 @@ public class GameManager : MonoBehaviour
             }
             lastMousePosition = Input.mousePosition;
             fruitCols = thisFruitFrame;
+        }
+        else
+        {
+            trail.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         }
     }
 }
