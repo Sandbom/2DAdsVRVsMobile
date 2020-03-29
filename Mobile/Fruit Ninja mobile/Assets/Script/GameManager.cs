@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     private Vector3 lastMousePosition;
     private const float REQUIRED_SLICE_FORCE = 10;
     private bool isPaused = false;
+    private bool maxSpeedReached = false;
 
     //UI
     private int score;
@@ -62,14 +64,20 @@ public class GameManager : MonoBehaviour
             i.enabled = true;
         }
 
-        foreach (FruitBehaviour f in fruit)
+        /*foreach (FruitBehaviour f in fruit)
         {
             Destroy(f.gameObject);
-        }
+        }*/
+
         fruit.Clear();
 
         //Death
         deathMenu.SetActive(false);
+    }
+
+    public void RestartGame()
+    {
+        SceneManager.LoadScene(0);
     }
 
     public void LoseLifePoint()
@@ -123,6 +131,24 @@ public class GameManager : MonoBehaviour
     {
         fruitCols = new Collider2D[0];
         NewGame();
+
+        StartCoroutine(IncreaseDifficulity());
+    }
+
+    private IEnumerator IncreaseDifficulity()
+    {
+        while (!maxSpeedReached)
+        {
+            yield return new WaitForSeconds(30);
+
+            deltaSpawn -= 0.1f;
+            Debug.Log("increasing speed!" + " speed is now: " + deltaSpawn);
+
+            if (deltaSpawn <= 0.4f)
+            {
+                maxSpeedReached = true;
+            }
+        }
     }
 
     // Update is called once per frame
@@ -161,8 +187,9 @@ public class GameManager : MonoBehaviour
                         if (c2 == fruitCols[i])
                         {
                             c2.GetComponent<FruitBehaviour>().Slice();
-                            Debug.Log(Input.mousePosition - lastMousePosition);
-                            Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1,1));
+                            //Debug.Log(Input.mousePosition - lastMousePosition);
+                            Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1, 1));
+                            //Instantiate(cutFruitPrefab, pos, new Quaternion(90, 90, 1, 1));
 
                         }
                     }
