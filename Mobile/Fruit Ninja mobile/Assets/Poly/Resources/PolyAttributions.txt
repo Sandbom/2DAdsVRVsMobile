@@ -1,0 +1,19 @@
+This project uses the following items from Poly (http://poly.google.com):
+
+Title: Grapefruit
+Author: Poly by Google
+URL: https://poly.google.com/view/2NsaX5Ae4cz
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Lemon
+Author: Poly by Google
+URL: https://poly.google.com/view/6V3TWTOBHwL
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Lemon
+Author: Poly by Google
+URL: https://poly.google.com/view/dtMdNXv86HP
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
