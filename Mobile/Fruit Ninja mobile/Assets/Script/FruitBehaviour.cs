@@ -12,6 +12,7 @@ public class FruitBehaviour : MonoBehaviour
     public float verticalVelocity;
     private float speed;
     private bool isSliced = false;
+    private float rotationSpeed;
 
     public void LauchFruit(float verticalVelocity, float xSpeed, float xStart)
     {
@@ -20,6 +21,8 @@ public class FruitBehaviour : MonoBehaviour
         this.verticalVelocity = verticalVelocity;
         transform.position = new Vector3(xStart, 0, 0);
         isSliced = false;
+
+        rotationSpeed = Random.Range(-180, 180);
     }
 
     // Start is called before the first frame update
@@ -48,6 +51,7 @@ public class FruitBehaviour : MonoBehaviour
 
         verticalVelocity -= GRAVITY * Time.deltaTime;
         transform.position += new Vector3(speed, verticalVelocity, 0) * Time.deltaTime;
+        transform.Rotate(new Vector3(0, 0, rotationSpeed) *Time.deltaTime);
 
         if (transform.position.y < -1)
         {

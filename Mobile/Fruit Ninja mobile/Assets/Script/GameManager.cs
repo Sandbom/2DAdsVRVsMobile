@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public GameObject fruitPrefab;
     public GameObject cutFruitPrefab;
     public Transform trail;
+    public GameObject trailTest;
 
     //Fruit spawning & control
     private List<FruitBehaviour> fruit = new List<FruitBehaviour>();
@@ -173,13 +174,19 @@ public class GameManager : MonoBehaviour
             lastSpawn = Time.time;
         }
 
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0)) 
         {
+            //trailTest.SetActive(true);
+            trail.gameObject.SetActive(true);
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z = -1;
-            transform.position = pos;
+            //transform.position = pos;
+
             trail.position = pos;
-            //trail = Instantiate(trail, transform);
+            Instantiate(trail.gameObject, transform);
+
+            //trailTest.transform.position = pos;
+            //trailTest = Instantiate(trailTest, transform);
 
             Collider2D[] thisFruitFrame = Physics2D.OverlapPointAll(new Vector2(pos.x, pos.y), LayerMask.GetMask("Fruit"));
 
@@ -194,8 +201,8 @@ public class GameManager : MonoBehaviour
                         {
                             c2.GetComponent<FruitBehaviour>().Slice();
                             //Debug.Log(Input.mousePosition - lastMousePosition);
-                            Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1, 1));
-                            //Instantiate(cutFruitPrefab, pos, new Quaternion(90, 90, 1, 1));
+                            //Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1, 1));
+                            Instantiate(cutFruitPrefab, pos, c2.GetComponent<FruitBehaviour>().gameObject.transform.rotation);
 
                         }
                     }
@@ -203,10 +210,12 @@ public class GameManager : MonoBehaviour
             }
             lastMousePosition = Input.mousePosition;
             fruitCols = thisFruitFrame;
+
         }
         else
         {
-            trail.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            //trailTest.SetActive(false);
+            trail.gameObject.SetActive(false);
         }
     }
 }

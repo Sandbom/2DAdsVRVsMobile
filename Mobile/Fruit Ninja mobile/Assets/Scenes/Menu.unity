@@ -188,6 +188,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5376966352675356259, guid: 0cd2335b8c38bf24c9217ed8fbcf6637,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5376966352675356259, guid: 0cd2335b8c38bf24c9217ed8fbcf6637,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 5376966353278970893, guid: 0cd2335b8c38bf24c9217ed8fbcf6637,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -348,11 +358,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 06661c3d4d225e84f87651dea1682d09, type: 3}
-    m_FontSize: 42
+    m_FontSize: 84
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
-    m_MaxSize: 42
+    m_MinSize: 0
+    m_MaxSize: 84
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -384,8 +394,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -196.5}
-  m_SizeDelta: {x: 400, y: 215}
+  m_AnchoredPosition: {x: 0, y: -283.2}
+  m_SizeDelta: {x: 574.8, y: 321.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1634438386
 GameObject:
@@ -606,7 +616,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -22.07}
-  m_SizeDelta: {x: 260, y: 122}
+  m_SizeDelta: {x: 380, y: 170}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1895741718
 MonoBehaviour:
