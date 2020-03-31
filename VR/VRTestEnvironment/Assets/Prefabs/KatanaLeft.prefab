@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8233293539975386408}
   - component: {fileID: 1828377615212047832}
   - component: {fileID: 1828377615212047833}
+  - component: {fileID: 9178532177736315338}
   m_Layer: 0
   m_Name: KatanaLeft
   m_TagString: Untagged
@@ -117,3 +118,16 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!65 &9178532177736315338
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7673675092468064756}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.012624238, y: 0.33658773, z: 0.039724614}
+  m_Center: {x: 0.0000000011641532, y: -0.053804643, z: 0.0053798608}
