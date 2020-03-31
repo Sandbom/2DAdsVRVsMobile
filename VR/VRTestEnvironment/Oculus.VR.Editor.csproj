@@ -79,11 +79,11 @@
      <None Include="Assets\Oculus\VR\Editor\Oculus.VR.Editor.asmdef" />
      <None Include="Assets\Oculus\VR\Editor\network_sec_config.xml" />
      <None Include="Assets\Oculus\VR\Editor\AndroidManifest.OVRSubmission.xml" />
- <Reference Include="UnityEditor.UI">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>

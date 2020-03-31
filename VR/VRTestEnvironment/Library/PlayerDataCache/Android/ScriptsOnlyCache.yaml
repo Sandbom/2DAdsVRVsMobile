@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - FruitSpawner
     - ONSPSettings
+    - SwordCutter
     Oculus.VR.Editor.dll:
     - OVRConfig
     Unity.2D.Tilemap.Editor.dll:
@@ -63,6 +64,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13454}
     - Class: 114
       Script: {instanceID: 13820}
+    - Class: 114
+      Script: {instanceID: 59254}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -1682,6 +1685,120 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 7e22dbf7209c42337af75129a08288bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: ParticlePathFlow
+  - hash:
+      serializedVersion: 2
+      Hash: ad355ccca662db3ad09f75e88e857994
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: SetDepthTextureMode
+  - hash:
+      serializedVersion: 2
+      Hash: 3543855c1b95658a22ad6b2db2b68703
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleUseof_Trajectory_Predicted_Path
+  - hash:
+      serializedVersion: 2
+      Hash: cf0a982f352df8107b789451ac779213
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._ScriptHelper
+    className: SelectableSphereGizmo
+  - hash:
+      serializedVersion: 2
+      Hash: dcdf38aceb3182d88241b84bf8725cf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: Electricity
+  - hash:
+      serializedVersion: 2
+      Hash: 389cb8010db69d34c7c2a7a1aff1a2bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._2D
+    className: Spline2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: MeshColliderPerMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 010a9a681a9c7a9698e3138803fa3366
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: Path_Comp
+  - hash:
+      serializedVersion: 2
+      Hash: f71748034a6b0277d8567440bd394707
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._ApplicationComponents
+    className: SaveData_ApplicationComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 53a148a90c336e16faefdbb9c8553625
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: Spline3D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._ApplicationComponents
+    className: ApplicationComponent_Manager
+  - hash:
+      serializedVersion: 2
+      Hash: c0f839c42e1ae8e9a3c4ed35c3653fa4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: ParticleTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 0079435dc4b322cbe32e86bfd1dd6d5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._2D
+    className: Parallax2D
+  - hash:
+      serializedVersion: 2
+      Hash: ea152d73bfe11716f2a9f5791d1c0b06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: PortalView
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleUseof_MeshCut
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleUseof_MeshColliderPeMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 2a27c6f7572ad079d8b01192e102909d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: ParticlePathRectangle
+  - hash:
+      serializedVersion: 2
+      Hash: 843fdfbe80d7c6fcf96d2d15eb09bd0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._2D
+    className: AdjustableQuad2D
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SwordCutter
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Mar 31 13:40:12 CEST 2020
+#Tue Mar 31 15:41:23 CEST 2020
 2.path=bin/Data/Managed/UnityEngine.GameCenterModule.dll
 14.set=ASSET
 107.baseType=DIRECTORY
@@ -186,6 +186,7 @@
 59.path=lib/armeabi-v7a/libAudioPluginOculusSpatializer.so
 34.path=bin/Data/Managed/UnityEngine.AndroidJNIModule.dll
 86.path=bin/Data/Managed/UnityEngine.Physics2DModule.dll
+149.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 79.set=NATIVE_RESOURCE
 61.path=bin/Data/globalgamemanagers.assets
 124.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
@@ -281,6 +282,7 @@
 136.path=bin/Data/Managed/UnityEngine.UI.dll
 136.set=ASSET
 141.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
+149.baseType=DIRECTORY
 111.path=bin/Data/ced943c76cb8fb8489bab18c3dfcdcd3
 29.baseType=DIRECTORY
 12.baseType=DIRECTORY
@@ -296,7 +298,7 @@
 126.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 74.baseType=DIRECTORY
 101.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
-148.path=bin/Data/Managed/System.Drawing.dll
+148.path=bin/Data/sharedassets0.assets.split2
 7.baseType=DIRECTORY
 123.path=bin/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
 111.set=ASSET
@@ -349,9 +351,10 @@
 127.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 102.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 126.baseType=DIRECTORY
+149.path=bin/Data/Managed/System.Drawing.dll
 124.path=bin/Data/Managed/UnityEngine.WindModule.dll
 121.set=NATIVE_RESOURCE
-count=149
+count=150
 121.baseType=DIRECTORY
 27.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 77.set=ASSET
@@ -371,6 +374,7 @@ count=149
 84.set=ASSET
 45.set=ASSET
 132.baseType=DIRECTORY
+149.set=ASSET
 91.set=NATIVE_RESOURCE
 79.baseType=DIRECTORY
 66.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out

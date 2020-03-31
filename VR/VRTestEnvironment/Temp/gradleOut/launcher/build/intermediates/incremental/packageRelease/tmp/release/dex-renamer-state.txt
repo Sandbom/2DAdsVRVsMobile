@@ -1,4 +1,4 @@
-#Tue Mar 31 13:40:11 CEST 2020
+#Tue Mar 31 15:41:22 CEST 2020
 base.0=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
 path.0=classes.dex
 renamed.0=classes.dex
