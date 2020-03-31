@@ -21,7 +21,7 @@ public class FruitSpawner : MonoBehaviour
             Rigidbody temp = go.GetComponent<Rigidbody>();
 
             temp.velocity = new Vector3(0f, 5f, 0f);
-            temp.angularVelocity = new Vector3(Random.Range(-5f, 5f), 0f, Random.Range(-5f, 5f));
+            temp.angularVelocity = new Vector3(0f, 0f, Random.Range(-5f, 5f));
             temp.useGravity = true;
             Vector3 pos = transform.position;
             pos.x += Random.Range(-1f, 1f);
