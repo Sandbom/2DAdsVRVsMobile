@@ -171,9 +171,9 @@ namespace BLINDED_AM_ME{
             rightSideObj.transform.localScale = victim.transform.localScale;
             rightSideObj.GetComponent<MeshFilter>().mesh = right_HalfMesh;
 		
-			/*if(victim.transform.parent != null){
+			if(victim.transform.parent != null){
 				rightSideObj.transform.parent = victim.transform.parent;
-			}*/
+			}
 
 			
 
