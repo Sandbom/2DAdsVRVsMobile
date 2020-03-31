@@ -13,6 +13,8 @@ public class FruitBehaviour : MonoBehaviour
     private float speed;
     private bool isSliced = false;
     private float rotationSpeed;
+    public Material capMaterial;
+    private bool soundPlayed = false;
 
     public void LauchFruit(float verticalVelocity, float xSpeed, float xStart)
     {
@@ -37,10 +39,14 @@ public class FruitBehaviour : MonoBehaviour
 
         if (isSliced)
         {
-
-            int soundIndex = Random.Range(0, 2);
-            SoundManager.Instance.PlaySound(soundIndex);
-            Destroy(gameObject);
+            if (!soundPlayed)
+            {
+                int soundIndex = Random.Range(0, 2);
+                SoundManager.Instance.PlaySound(soundIndex);
+                soundPlayed = true;
+            }
+            //Destroy(gameObject);
+            Destroy(gameObject, 2.0f);
         }
 
 

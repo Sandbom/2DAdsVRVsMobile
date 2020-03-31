@@ -1,4 +1,0 @@
-#Sun Mar 29 21:47:56 CEST 2020
-base.0=C\:\\Users\\Simon\\Fruit Ninja mobile\\Temp\\gradleOut\\launcher\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex

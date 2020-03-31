@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BLINDED_AM_ME package\Editor\MeshColliderPerMaterial_Editor.cs" />
+    <Compile Include="Assets\BLINDED_AM_ME package\Editor\Spline3D_Editor.cs" />
     <Compile Include="Assets\PolyToolkit\Editor\AnalyticsSender.cs" />
     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\AssetBrowserManager.cs" />
     <Compile Include="Assets\PolyToolkit\Editor\AssetBrowser\AssetBrowserWindow.cs" />

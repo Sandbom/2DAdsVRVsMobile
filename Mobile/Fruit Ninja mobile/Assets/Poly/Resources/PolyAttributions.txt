@@ -1,5 +1,23 @@
 This project uses the following items from Poly (http://poly.google.com):
 
+Title: Banana
+Author: Erik Iversen
+URL: https://poly.google.com/view/ckvSpw0JlDx
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Carrot
+Author: Poly by Google
+URL: https://poly.google.com/view/3oFkNid6ofx
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Carrot
+Author: Poly by Google
+URL: https://poly.google.com/view/8mSuB-1kfRm
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Grapefruit
 Author: Poly by Google
 URL: https://poly.google.com/view/2NsaX5Ae4cz
@@ -15,5 +33,23 @@ https://creativecommons.org/licenses/by/3.0/legalcode
 Title: Lemon
 Author: Poly by Google
 URL: https://poly.google.com/view/dtMdNXv86HP
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Pineapple
+Author: Jasmine Roberts
+URL: https://poly.google.com/view/bszbYV7s3yT
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Pineapple
+Author: Poly by Google
+URL: https://poly.google.com/view/7B_hERcgTZW
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
+Title: Tomato
+Author: Poly by Google
+URL: https://poly.google.com/view/dmzbb8UisNv
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode

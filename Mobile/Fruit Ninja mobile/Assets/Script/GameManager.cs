@@ -8,10 +8,11 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { set; get; }
 
-    public GameObject fruitPrefab;
+    public GameObject[] fruitPrefab;
     public GameObject cutFruitPrefab;
     public Transform trail;
     public GameObject trailTest;
+    public Material capMaterial;
 
     //Fruit spawning & control
     private List<FruitBehaviour> fruit = new List<FruitBehaviour>();
@@ -19,7 +20,7 @@ public class GameManager : MonoBehaviour
     private float deltaSpawn = 1.0f;
     private Collider2D[] fruitCols;
     private Vector3 lastMousePosition;
-    private const float REQUIRED_SLICE_FORCE = 10;
+    private const float REQUIRED_SLICE_FORCE = 0;
     private bool isPaused = false;
     private bool maxSpeedReached = false;
 
@@ -32,6 +33,7 @@ public class GameManager : MonoBehaviour
     public Image[] lifePointsImages;
     public GameObject pauseMenu;
     public GameObject deathMenu;
+    public GameObject damageOverlay;
 
     private FruitBehaviour getFruit()
     {
@@ -39,7 +41,9 @@ public class GameManager : MonoBehaviour
 
         if (fb == null)
         {
-            fb = Instantiate(fruitPrefab).GetComponent<FruitBehaviour>();
+            int randomNmbr = Random.Range(0, 4);
+
+            fb = Instantiate(fruitPrefab[randomNmbr]).GetComponent<FruitBehaviour>();
             fruit.Add(fb);
         }
 
@@ -58,6 +62,8 @@ public class GameManager : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
         isPaused = false;
+
+        damageOverlay.SetActive(false);
 
         //Score
         scoreText.text = score.ToString();
@@ -88,7 +94,6 @@ public class GameManager : MonoBehaviour
 
     public void LoseLifePoint()
     {
-
         if (lifePoints > 0)
         {
             lifePoints--;
@@ -174,24 +179,18 @@ public class GameManager : MonoBehaviour
             lastSpawn = Time.time;
         }
 
-        if (Input.GetMouseButton(0)) 
+        if (Input.GetMouseButton(0))
         {
-            //trailTest.SetActive(true);
             trail.gameObject.SetActive(true);
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z = -1;
-            //transform.position = pos;
 
             trail.position = pos;
             Instantiate(trail.gameObject, transform);
 
-            //trailTest.transform.position = pos;
-            //trailTest = Instantiate(trailTest, transform);
-
             Collider2D[] thisFruitFrame = Physics2D.OverlapPointAll(new Vector2(pos.x, pos.y), LayerMask.GetMask("Fruit"));
 
-
-            if ((Input.mousePosition - lastMousePosition).sqrMagnitude > REQUIRED_SLICE_FORCE)
+            if ((Input.mousePosition - lastMousePosition).sqrMagnitude >= REQUIRED_SLICE_FORCE)
             {
                 foreach (Collider2D c2 in thisFruitFrame)
                 {
@@ -202,20 +201,29 @@ public class GameManager : MonoBehaviour
                             c2.GetComponent<FruitBehaviour>().Slice();
                             //Debug.Log(Input.mousePosition - lastMousePosition);
                             //Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1, 1));
-                            Instantiate(cutFruitPrefab, pos, c2.GetComponent<FruitBehaviour>().gameObject.transform.rotation);
+                            //Instantiate(cutFruitPrefab, pos, c2.GetComponent<FruitBehaviour>().gameObject.transform.rotation);
 
+
+                            GameObject victim = c2.GetComponent<FruitBehaviour>().gameObject;
+
+                            GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
+
+                            if (!pieces[1].GetComponent<Rigidbody>())
+                                pieces[1].AddComponent<Rigidbody>();
+                                
+                            Destroy(pieces[1], 1);
+                            victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
                         }
                     }
+                    }
                 }
+                lastMousePosition = Input.mousePosition;
+                fruitCols = thisFruitFrame;
             }
-            lastMousePosition = Input.mousePosition;
-            fruitCols = thisFruitFrame;
-
-        }
-        else
-        {
-            //trailTest.SetActive(false);
-            trail.gameObject.SetActive(false);
+            else
+            {
+                //trailTest.SetActive(false);
+                trail.gameObject.SetActive(false);
+            }
         }
     }
-}
