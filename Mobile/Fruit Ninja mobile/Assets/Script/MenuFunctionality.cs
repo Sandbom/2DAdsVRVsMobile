@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Adverty;
 
 public class MenuFunctionality : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public class MenuFunctionality : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadScene(2);
+        AdvertySDK.Init();
     }
 
     // Start is called before the first frame update

@@ -8,15 +8,7 @@ ScriptsOnlyBuild:
     - MenuFunctionality
     - PolyToolkit.PtAsset
     - PolyToolkit.PtAssetObject
-    - PolyToolkitInternal.AsyncImporter
-    - PolyToolkitInternal.Authenticator
-    - PolyToolkitInternal.PolyMainInternal
     - PolyToolkitInternal.PtSettings
-    - PolyToolkitInternal.api_clients.poly_client.PolyClient
-    - PolyToolkitInternal.caching.PersistentBlobCache
-    - PolyToolkitInternal.client.model.util.WebRequestManager
-    - PolyToolkitInternal.entitlement.OAuth2Identity
-    - PolyToolkitInternal.model.util.BackgroundMain
     - SelfDestruct
     - SoundManager
     - TiltBrushToolkit.BrushDescriptor
@@ -76,31 +68,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 12110}
+      Script: {instanceID: 11696}
     - Class: 114
-      Script: {instanceID: 12324}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 12584}
+      Script: {instanceID: 12370}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12606}
     - Class: 114
-      Script: {instanceID: 15764}
+      Script: {instanceID: 12668}
     - Class: 114
-      Script: {instanceID: 15804}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 16330}
+      Script: {instanceID: 12926}
     - Class: 114
-      Script: {instanceID: 16394}
+      Script: {instanceID: 13008}
     - Class: 114
-      Script: {instanceID: 53394}
+      Script: {instanceID: 13284}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -143,21 +135,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11156}
+      Script: {instanceID: 11324}
     - Class: 114
-      Script: {instanceID: 11312}
+      Script: {instanceID: 11494}
     - Class: 114
-      Script: {instanceID: 11352}
+      Script: {instanceID: 11538}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11954}
     - Class: 114
-      Script: {instanceID: 12110}
+      Script: {instanceID: 12370}
     - Class: 114
-      Script: {instanceID: 12584}
+      Script: {instanceID: 12852}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 12900}
     - Class: 114
-      Script: {instanceID: 103486}
+      Script: {instanceID: 13284}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -196,21 +188,21 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 11888}
     - Class: 114
-      Script: {instanceID: 12328}
+      Script: {instanceID: 11982}
     - Class: 114
-      Script: {instanceID: 12342}
+      Script: {instanceID: 12126}
     - Class: 114
-      Script: {instanceID: 12730}
+      Script: {instanceID: 12312}
     - Class: 114
-      Script: {instanceID: 16346}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 16356}
+      Script: {instanceID: 12626}
     - Class: 114
-      Script: {instanceID: 16370}
+      Script: {instanceID: 12772}
     - Class: 114
-      Script: {instanceID: 113438}
+      Script: {instanceID: 13066}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -252,10 +244,22 @@ ScriptsOnlyBuild:
     className: TMP_ScrollbarEventHandler
   - hash:
       serializedVersion: 2
+      Hash: cb11efe06141c5d6ef3ea8bc1021c6f5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0e91cc7cec99c21b2ebf3e3e38e42fe4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotate
   - hash:
       serializedVersion: 2
       Hash: a5781dc71a671b1ad2b38de19f24b71f
@@ -274,6 +278,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 7e22dbf7209c42337af75129a08288bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: ParticlePathFlow
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -306,10 +316,22 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: cf4356b4525e9e7e9ce4dc5e104d52b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ShowFeaturedExample
+  - hash:
+      serializedVersion: 2
       Hash: 7ab0e790220bdca831fdd886b339039d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: ad355ccca662db3ad09f75e88e857994
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: SetDepthTextureMode
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -334,6 +356,24 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8dcaa3fc37233464981217fe5df17a5b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkit
+    className: PtAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 3543855c1b95658a22ad6b2db2b68703
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleUseof_Trajectory_Predicted_Path
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal.caching
+    className: PersistentBlobCache
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -366,16 +406,34 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: cf0a982f352df8107b789451ac779213
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._ScriptHelper
+    className: SelectableSphereGizmo
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Mask
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal
+    className: AsyncImporter
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: e532764e47ffc5efd8d488ecb6bf74cb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TiltBrushToolkit
+    className: BrushManifest
   - hash:
       serializedVersion: 2
       Hash: cc4274b586df3c02688bac01b88bd16c
@@ -388,6 +446,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal.api_clients.poly_client
+    className: PolyClient
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -408,6 +472,36 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: dcdf38aceb3182d88241b84bf8725cf4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: Electricity
+  - hash:
+      serializedVersion: 2
+      Hash: 389cb8010db69d34c7c2a7a1aff1a2bf
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._2D
+    className: Spline2D
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: MeshColliderPerMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 010a9a681a9c7a9698e3138803fa3366
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: Path_Comp
+  - hash:
+      serializedVersion: 2
+      Hash: 7bd8ba15d88a82ad52f921dbcf53649d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal
+    className: PtSettings
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -420,10 +514,28 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: f71748034a6b0277d8567440bd394707
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._ApplicationComponents
+    className: SaveData_ApplicationComponent
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal
+    className: Authenticator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal.model.util
+    className: BackgroundMain
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -436,6 +548,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 556241b6d651f7d474dfcaa614cbc619
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: TiltBrushToolkit
+    className: BrushDescriptor
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -462,6 +580,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 53a148a90c336e16faefdbb9c8553625
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: Spline3D
+  - hash:
+      serializedVersion: 2
       Hash: 783f593b9380cf72d0f7ebfd4a0d4bcd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -486,6 +610,12 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._ApplicationComponents
+    className: ApplicationComponent_Manager
+  - hash:
+      serializedVersion: 2
       Hash: e1300922cc039f41ab46a47f4cb05898
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -504,16 +634,52 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
+      Hash: c0f839c42e1ae8e9a3c4ed35c3653fa4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: ParticleTexture
+  - hash:
+      serializedVersion: 2
+      Hash: 6868214e8693bb3c9b0079589cecf701
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkit
+    className: PtAssetObject
+  - hash:
+      serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TestRuntimeImport
+  - hash:
+      serializedVersion: 2
+      Hash: 0079435dc4b322cbe32e86bfd1dd6d5a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._2D
+    className: Parallax2D
+  - hash:
+      serializedVersion: 2
+      Hash: e67ad5a6dd80d118e5048f8c45004a96
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoundManager
+  - hash:
+      serializedVersion: 2
       Hash: 3b760e6526e13f7504f59e210145899a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 261e5f1a68ab70d9af31984cf3ecd1d7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuFunctionality
   - hash:
       serializedVersion: 2
       Hash: f336e086360abe49a3323e5f1583c35a
@@ -528,10 +694,40 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 3bb1b4bae6823a4524e793cdb8702970
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: HelloPoly
+  - hash:
+      serializedVersion: 2
       Hash: 88cc9df3c6fc697bfbeacd24c0d6f2d7
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: c83b855162a159a67bbf00cdac3a6477
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FruitBehaviour
+  - hash:
+      serializedVersion: 2
+      Hash: ea152d73bfe11716f2a9f5791d1c0b06
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: PortalView
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleUseof_MeshCut
+  - hash:
+      serializedVersion: 2
+      Hash: 3f1d1b5cfd94b3500ee99455433e3609
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SelfDestruct
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -540,10 +736,22 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal.entitlement
+    className: OAuth2Identity
+  - hash:
+      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal.client.model.util
+    className: WebRequestManager
   - hash:
       serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
@@ -570,10 +778,28 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkit
+    className: PolyToolkitManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: PolyToolkitInternal
+    className: PolyMainInternal
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExampleUseof_MeshColliderPeMaterial
   - hash:
       serializedVersion: 2
       Hash: a63fc1a3b035e5a0b5839cd7f7b3086e
@@ -592,6 +818,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 2a27c6f7572ad079d8b01192e102909d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME
+    className: ParticlePathRectangle
   - hash:
       serializedVersion: 2
       Hash: 4ef0f7d42cdb13479386e1f049c315aa
@@ -636,148 +868,16 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
+      Hash: 843fdfbe80d7c6fcf96d2d15eb09bd0c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: BLINDED_AM_ME._2D
+    className: AdjustableQuad2D
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 8cdb91c0a256015dd944c9e40bc5269e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: FruitBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: cfde239d1a75413c04f48cb79173d2f3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
-  - hash:
-      serializedVersion: 2
-      Hash: 0e91cc7cec99c21b2ebf3e3e38e42fe4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Rotate
-  - hash:
-      serializedVersion: 2
-      Hash: cf4356b4525e9e7e9ce4dc5e104d52b7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ShowFeaturedExample
-  - hash:
-      serializedVersion: 2
-      Hash: 8dcaa3fc37233464981217fe5df17a5b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkit
-    className: PtAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal.caching
-    className: PersistentBlobCache
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal
-    className: AsyncImporter
-  - hash:
-      serializedVersion: 2
-      Hash: e532764e47ffc5efd8d488ecb6bf74cb
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TiltBrushToolkit
-    className: BrushManifest
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal.api_clients.poly_client
-    className: PolyClient
-  - hash:
-      serializedVersion: 2
-      Hash: 7bd8ba15d88a82ad52f921dbcf53649d
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal
-    className: PtSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal
-    className: Authenticator
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal.model.util
-    className: BackgroundMain
-  - hash:
-      serializedVersion: 2
-      Hash: 556241b6d651f7d474dfcaa614cbc619
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: TiltBrushToolkit
-    className: BrushDescriptor
-  - hash:
-      serializedVersion: 2
-      Hash: 6868214e8693bb3c9b0079589cecf701
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkit
-    className: PtAssetObject
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TestRuntimeImport
-  - hash:
-      serializedVersion: 2
-      Hash: 3bb1b4bae6823a4524e793cdb8702970
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: HelloPoly
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal.entitlement
-    className: OAuth2Identity
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal.client.model.util
-    className: WebRequestManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkit
-    className: PolyToolkitManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: PolyToolkitInternal
-    className: PolyMainInternal
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SelfDestruct
-  - hash:
-      serializedVersion: 2
-      Hash: 261e5f1a68ab70d9af31984cf3ecd1d7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MenuFunctionality
-  - hash:
-      serializedVersion: 2
-      Hash: e67ad5a6dd80d118e5048f8c45004a96
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SoundManager
   platform: 13
   scenePathNames:
   - Assets/Scenes/PreLoader.unity

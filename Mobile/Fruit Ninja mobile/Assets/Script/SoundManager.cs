@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Adverty;
 
 public class SoundManager : MonoBehaviour
 {
@@ -15,6 +16,7 @@ public class SoundManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
         SceneManager.LoadScene(1);
+        AdvertySDK.Init();
     }
 
     public void PlaySound(int soundIndex)

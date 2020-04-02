@@ -138,12 +138,30 @@
     <Compile Include="Assets\Script\MenuFunctionality.cs" />
     <Compile Include="Assets\Script\SelfDestruct.cs" />
     <Compile Include="Assets\Script\SoundManager.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidMessageSystem.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidNativeDebug.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidRenderingPlugin.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidVideoPlayerPlugin.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidWebViewPlugin.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IOSVideoTexture.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IOSWebView.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IOSWebViewTexture.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IosMessageSystem.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IosNativeDebug.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IosNativeUtils.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\NativeAssemblyGetter.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\OsxNativeUtils.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\VRSettings.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\WebRequest.cs" />
+    <Compile Include="Assets\adverty\Scripts\Samples\InitializeAdvertySDK.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Blocks\BlocksPaper\BlocksPaper.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped_Lightup.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Smoke\Smoke.shader" />
+    <None Include="Assets\adverty\Resources\Shaders\WatermarkShader.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture_Rim.shader" />
+    <None Include="Assets\adverty\Resources\ComputeShaders\VisibilityCheckCS.compute" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Lightup.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Specular.shader" />
@@ -180,8 +198,10 @@
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\Bloom.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Box.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseSingleSided.shader" />
+    <None Include="Assets\adverty\Resources\Shaders\AdShader.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseDoubleSided.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\DiffuseOpaqueDoubleSided.shader" />
+    <None Include="Assets\adverty\Resources\Data\settings.txt" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Toon\Toon.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Embers\Embers.shader" />
     <None Include="Assets\Poly\Sources\Lemon_Poly_by_Google_dtMdNXv86HP\FileNameMapping.txt" />
@@ -189,6 +209,7 @@
     <None Include="Assets\Poly\Sources\Pineapple_Jasmine_Roberts_bszbYV7s3yT\FileNameMapping.txt" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim.shader" />
+    <None Include="Assets\adverty\Resources\Shaders\UIDrawOnTop.shader" />
     <None Include="Assets\PolyToolkit\ThirdParty\GPU-Voronoi-Noise\Assets\GPUVoronoiNoise\Shader\BlocksGemGPUVoronoiNoise.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\Poly\Sources\Tomato_Poly_by_Google_dmzbb8UisNv\FileNameMapping.txt" />
@@ -197,6 +218,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_Outline_Edges.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\adverty\Resources\Shaders\AndroidExternalTextureCopy.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\WaveformPulse\NeonPulse.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Electricity\Electricity.shader" />
@@ -235,7 +257,9 @@
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_UnlitRimColor.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\adverty\Resources\Shaders\VisibilityCheckStencilShader.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture_Rim_Bumped.shader" />
+    <None Include="Assets\adverty\Resources\Shaders\AdUnlitShader.shader" />
     <None Include="Assets\Poly\Resources\PolyAttributions.txt" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Blocks\BlocksGlass\BlocksGlass.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\VelvetInk\VelvetInk.shader" />
@@ -438,6 +462,15 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.7f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvertyDirectory">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvertySDK">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Plugins/AdvertySDK.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Plugins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>

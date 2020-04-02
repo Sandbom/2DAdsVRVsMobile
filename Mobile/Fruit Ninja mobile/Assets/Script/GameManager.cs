@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Adverty;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class GameManager : MonoBehaviour
     public Transform trail;
     public GameObject trailTest;
     public Material capMaterial;
+    public ParticleSystem fruitSplashEffectYellow;
+    public ParticleSystem fruitSplashEffectRed;
 
     //Fruit spawning & control
     private List<FruitBehaviour> fruit = new List<FruitBehaviour>();
@@ -139,6 +142,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        AdvertySDK.Init();
         fruitCols = new Collider2D[0];
         NewGame();
 
@@ -203,10 +207,21 @@ public class GameManager : MonoBehaviour
                             //Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1, 1));
                             //Instantiate(cutFruitPrefab, pos, c2.GetComponent<FruitBehaviour>().gameObject.transform.rotation);
 
-
                             GameObject victim = c2.GetComponent<FruitBehaviour>().gameObject;
+                            
+                            Debug.Log(victim.name);
+                            if ((victim.name == "TomatoFruit(Clone)") || victim.name == "CarrotFruit(Clone)")
+                            {
+                                Instantiate(fruitSplashEffectRed, victim.transform);
+                            }
+                            else
+                            {
+                                Instantiate(fruitSplashEffectYellow, victim.transform);
+                            }
 
-                            GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
+                            Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
+                            //GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
+                            GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterial);
 
                             if (!pieces[1].GetComponent<Rigidbody>())
                                 pieces[1].AddComponent<Rigidbody>();

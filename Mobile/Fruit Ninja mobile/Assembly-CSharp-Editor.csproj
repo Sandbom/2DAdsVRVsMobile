@@ -79,6 +79,9 @@
     <Compile Include="Assets\PolyToolkit\Editor\PtUtils.cs" />
     <Compile Include="Assets\PolyToolkit\Editor\WarnAboutUsingPolyInternal.cs" />
     <Compile Include="Assets\PolyToolkit\Editor\WarnIfManagerNotInScene.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\Editor\AdvertyPrefabProcessor.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\Editor\AdvertyPrefabValidator.cs" />
+    <Compile Include="Assets\adverty\Scripts\PlatformSpecific\Editor\VulkanCompatibilityChecker.cs" />
     <None Include="Assets\PolyToolkit\Editor\DummyVERSION.txt" />
     <Reference Include="UnityEditor.TestRunner">
       <HintPath>C:/Users/Simon/Fruit Ninja mobile/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
@@ -313,6 +316,24 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvertyEditorDirectory">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Editor/Plugins/AdvertyEditorDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvertySDKEditor">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Editor/Plugins/AdvertySDKEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityLibGit2Sharp">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Editor/Plugins/UnityLibGit2Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvertyDirectory">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvertySDK">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Plugins/AdvertySDK.dll</HintPath>
+    </Reference>
+    <Reference Include="LitJson">
+      <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/adverty/Plugins/LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>C:/Users/Simon/Fruit Ninja mobile/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
