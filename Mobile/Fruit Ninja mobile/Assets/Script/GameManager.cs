@@ -14,8 +14,21 @@ public class GameManager : MonoBehaviour
     public Transform trail;
     public GameObject trailTest;
     public Material capMaterial;
+
+    //Splash effects
     public ParticleSystem fruitSplashEffectYellow;
     public ParticleSystem fruitSplashEffectRed;
+
+    //Floating text
+    public Text streakText;
+    public GameObject floatingTextPrefabYellow;
+    public GameObject floatingTextPrefabOrange;
+    public GameObject floatingTextPrefabRed;
+    public GameObject floatingTextPrefabPurple;
+    public GameObject multiplier2x;
+    public GameObject multiplier3x;
+    public GameObject multiplier4x;
+    public GameObject multiplier6x;
 
     //Fruit spawning & control
     private List<FruitBehaviour> fruit = new List<FruitBehaviour>();
@@ -31,6 +44,8 @@ public class GameManager : MonoBehaviour
     private int score;
     private int highScore;
     private int lifePoints;
+    private int streak;
+    private int pointMultiplier;
     public Text scoreText;
     public Text highScoreText;
     public Image[] lifePointsImages;
@@ -62,6 +77,8 @@ public class GameManager : MonoBehaviour
     {
         score = 0;
         lifePoints = 5;
+        streak = 0;
+        pointMultiplier = 1;
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
         isPaused = false;
@@ -88,6 +105,11 @@ public class GameManager : MonoBehaviour
 
         //Death
         deathMenu.SetActive(false);
+
+        multiplier2x.SetActive(false);
+        multiplier3x.SetActive(false);
+        multiplier4x.SetActive(false);
+        multiplier6x.SetActive(false);
     }
 
     public void RestartGame()
@@ -97,6 +119,7 @@ public class GameManager : MonoBehaviour
 
     public void LoseLifePoint()
     {
+        streak = 0;
         if (lifePoints > 0)
         {
             lifePoints--;
@@ -106,6 +129,11 @@ public class GameManager : MonoBehaviour
         {
             Death();
         }
+
+        multiplier2x.SetActive(false);
+        multiplier3x.SetActive(false);
+        multiplier4x.SetActive(false);
+        multiplier6x.SetActive(false);
     }
 
     public void Death()
@@ -116,7 +144,40 @@ public class GameManager : MonoBehaviour
 
     public void AddScore(int scoreAmount)
     {
-        score += scoreAmount;
+        streak++;
+
+        if (streak == 10)
+        {
+            Debug.Log(streak);
+            ShowFloatingText(10);
+            pointMultiplier = 2;
+            multiplier2x.SetActive(true);
+        }
+        else if (streak == 20)
+        {
+            ShowFloatingText(20);
+            pointMultiplier = 3;
+            multiplier2x.SetActive(false);
+            multiplier3x.SetActive(true);
+        }
+
+        else if (streak == 40)
+        {
+            ShowFloatingText(40);
+            pointMultiplier = 4;
+            multiplier3x.SetActive(false);
+            multiplier4x.SetActive(true);
+        }
+
+        else if (streak == 60)
+        {
+            ShowFloatingText(60);
+            pointMultiplier = 6;
+            multiplier4x.SetActive(false);
+            multiplier6x.SetActive(true);
+        }
+
+        score += scoreAmount*pointMultiplier;
         scoreText.text = score.ToString();
 
         if (score > highScore)
@@ -124,6 +185,34 @@ public class GameManager : MonoBehaviour
             highScore = score;
             highScoreText.text = "Best: " + highScore.ToString();
             PlayerPrefs.SetInt("Score", highScore);
+        }
+    }
+
+    void ShowFloatingText(int streakNumber)
+    {
+
+        if (streakNumber == 10)
+        {
+            var streakText = Instantiate(floatingTextPrefabYellow);
+            streakText.GetComponent<TextMesh>().text = "10 Streak!\n2x Points";
+        }
+
+        else if (streakNumber == 20)
+        {
+            var streakText = Instantiate(floatingTextPrefabOrange);
+            streakText.GetComponent<TextMesh>().text = "20 Streak!\n3x Points";
+        }
+
+        else if (streakNumber == 40)
+        {
+            var streakText = Instantiate(floatingTextPrefabRed);
+            streakText.GetComponent<TextMesh>().text = "4 Streak!\n4x Points";
+        }
+
+        else if (streakNumber == 60)
+        {
+            var streakText = Instantiate(floatingTextPrefabPurple);
+            streakText.GetComponent<TextMesh>().text = "60 Streak!\n6x Points";
         }
     }
 
@@ -164,7 +253,6 @@ public class GameManager : MonoBehaviour
             }
         }
     }
-
     // Update is called once per frame
     private void Update()
     {
@@ -208,8 +296,7 @@ public class GameManager : MonoBehaviour
                             //Instantiate(cutFruitPrefab, pos, c2.GetComponent<FruitBehaviour>().gameObject.transform.rotation);
 
                             GameObject victim = c2.GetComponent<FruitBehaviour>().gameObject;
-                            
-                            Debug.Log(victim.name);
+
                             if ((victim.name == "TomatoFruit(Clone)") || victim.name == "CarrotFruit(Clone)")
                             {
                                 Instantiate(fruitSplashEffectRed, victim.transform);

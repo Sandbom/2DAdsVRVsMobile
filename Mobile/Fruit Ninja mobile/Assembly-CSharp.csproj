@@ -133,9 +133,11 @@
     <Compile Include="Assets\PolyToolkit\Scripts\PolyTypes.cs" />
     <Compile Include="Assets\PolyToolkit\Scripts\PtAsset.cs" />
     <Compile Include="Assets\PolyToolkit\Scripts\PtAssetObject.cs" />
+    <Compile Include="Assets\Script\FloatingTextController.cs" />
     <Compile Include="Assets\Script\FruitBehaviour.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\MenuFunctionality.cs" />
+    <Compile Include="Assets\Script\OutlineText.cs" />
     <Compile Include="Assets\Script\SelfDestruct.cs" />
     <Compile Include="Assets\Script\SoundManager.cs" />
     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidMessageSystem.cs" />
