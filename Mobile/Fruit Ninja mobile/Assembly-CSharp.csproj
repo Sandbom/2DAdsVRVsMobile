@@ -196,6 +196,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Plane.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Stars\Stars.shader" />
+    <None Include="Assets\PollyPrivateers\Readme.txt" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\Unlit.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\Bloom.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Box.shader" />

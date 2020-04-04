@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3024662539485025081}
   - component: {fileID: 9040784901703680403}
   - component: {fileID: 2626657411817236633}
+  - component: {fileID: -6329327188313865760}
   m_Layer: 0
   m_Name: FloatingStreakText - Purple
   m_TagString: Untagged
@@ -29,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4718563577226091941}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: 1.68, z: 0}
+  m_LocalPosition: {x: -0.084, y: 1.68, z: -0.083}
   m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
   m_Children: []
   m_Father: {fileID: 0}
@@ -53,7 +54,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 06661c3d4d225e84f87651dea1682d09, type: 3}
+  - {fileID: 2100000, guid: c56b9f3d865508f4a954bc3a131fb262, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,7 +95,7 @@ TextMesh:
   m_FontSize: 70
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 12800000, guid: 06661c3d4d225e84f87651dea1682d09, type: 3}
+  m_Font: {fileID: 12800000, guid: c56b9f3d865508f4a954bc3a131fb262, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4289472970
@@ -125,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb2f5314a232c141814a50ba32c9cd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyTime: 3
+  DestroyTime: 4
 --- !u!95 &2626657411817236633
 Animator:
   serializedVersion: 3
@@ -145,3 +146,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &-6329327188313865760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4718563577226091941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfabb0440166ab443bba8876756fdfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1

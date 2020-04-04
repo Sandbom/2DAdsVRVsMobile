@@ -13,7 +13,8 @@ public class GameManager : MonoBehaviour
     public GameObject cutFruitPrefab;
     public Transform trail;
     public GameObject trailTest;
-    public Material capMaterial;
+    public Material capMaterialYellow;
+    public Material capMaterialRed;
 
     //Splash effects
     public ParticleSystem fruitSplashEffectYellow;
@@ -120,6 +121,7 @@ public class GameManager : MonoBehaviour
     public void LoseLifePoint()
     {
         streak = 0;
+        pointMultiplier = 1;
         if (lifePoints > 0)
         {
             lifePoints--;
@@ -242,7 +244,7 @@ public class GameManager : MonoBehaviour
     {
         while (!maxSpeedReached)
         {
-            yield return new WaitForSeconds(30);
+            yield return new WaitForSeconds(20);
 
             deltaSpawn -= 0.1f;
             Debug.Log("increasing speed!" + " speed is now: " + deltaSpawn);
@@ -300,21 +302,31 @@ public class GameManager : MonoBehaviour
                             if ((victim.name == "TomatoFruit(Clone)") || victim.name == "CarrotFruit(Clone)")
                             {
                                 Instantiate(fruitSplashEffectRed, victim.transform);
+                                Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
+                                //GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
+                                GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterialRed);
+
+                                if (!pieces[1].GetComponent<Rigidbody>())
+                                    pieces[1].AddComponent<Rigidbody>();
+
+                                Destroy(pieces[1], 1);
+                                victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
                             }
                             else
                             {
                                 Instantiate(fruitSplashEffectYellow, victim.transform);
+                                Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
+                                //GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
+                                GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterialYellow);
+
+                                if (!pieces[1].GetComponent<Rigidbody>())
+                                    pieces[1].AddComponent<Rigidbody>();
+
+                                Destroy(pieces[1], 1);
+                                victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
                             }
 
-                            Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
-                            //GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
-                            GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterial);
 
-                            if (!pieces[1].GetComponent<Rigidbody>())
-                                pieces[1].AddComponent<Rigidbody>();
-                                
-                            Destroy(pieces[1], 1);
-                            victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
                         }
                     }
                     }
