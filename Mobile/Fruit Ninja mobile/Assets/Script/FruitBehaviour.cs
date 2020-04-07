@@ -62,7 +62,7 @@ public class FruitBehaviour : MonoBehaviour
         if (transform.position.y < -1)
         {
             isActive = false;
-            if (!isSliced)
+            if (!isSliced && !(gameObject.tag == "Bomb"))
             {
                 GameManager.Instance.LoseLifePoint();
             }

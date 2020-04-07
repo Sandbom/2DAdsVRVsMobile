@@ -60,10 +60,19 @@ public class GameManager : MonoBehaviour
 
         if (fb == null)
         {
-            int randomNmbr = Random.Range(0, 4);
+            int randomNmbr = Random.Range(1, 11);
 
-            fb = Instantiate(fruitPrefab[randomNmbr]).GetComponent<FruitBehaviour>();
-            fruit.Add(fb);
+            if (randomNmbr < 10) // 90% chance to spawn "ordinary fruit"
+            {
+                int fruitIndex = Random.Range(0, 4);
+                fb = Instantiate(fruitPrefab[fruitIndex]).GetComponent<FruitBehaviour>();
+                fruit.Add(fb);
+            }
+            else
+            {
+                fb = Instantiate(fruitPrefab[4]).GetComponent<FruitBehaviour>();
+                fruit.Add(fb);
+            }
         }
 
         return fb;
@@ -278,56 +287,47 @@ public class GameManager : MonoBehaviour
             trail.gameObject.SetActive(true);
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z = -1;
-
             trail.position = pos;
             Instantiate(trail.gameObject, transform);
 
             Collider2D[] thisFruitFrame = Physics2D.OverlapPointAll(new Vector2(pos.x, pos.y), LayerMask.GetMask("Fruit"));
-
             if ((Input.mousePosition - lastMousePosition).sqrMagnitude >= REQUIRED_SLICE_FORCE)
             {
                 foreach (Collider2D c2 in thisFruitFrame)
                 {
-                    for (int i = 0; i < fruitCols.Length; i++)
+                    c2.GetComponent<FruitBehaviour>().Slice();
+                    GameObject victim = c2.GetComponent<FruitBehaviour>().gameObject;
+
+                    if ((victim.name == "TomatoFruit(Clone)") || victim.name == "CarrotFruit(Clone)")
                     {
-                        if (c2 == fruitCols[i])
-                        {
-                            c2.GetComponent<FruitBehaviour>().Slice();
-                            //Debug.Log(Input.mousePosition - lastMousePosition);
-                            //Instantiate(cutFruitPrefab, pos, new Quaternion((Input.mousePosition - lastMousePosition).x, (Input.mousePosition - lastMousePosition).y, 1, 1));
-                            //Instantiate(cutFruitPrefab, pos, c2.GetComponent<FruitBehaviour>().gameObject.transform.rotation);
+                        Instantiate(fruitSplashEffectRed, victim.transform);
+                        Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
+                        GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterialRed);
 
-                            GameObject victim = c2.GetComponent<FruitBehaviour>().gameObject;
+                        if (!pieces[1].GetComponent<Rigidbody>())
+                            pieces[1].AddComponent<Rigidbody>();
 
-                            if ((victim.name == "TomatoFruit(Clone)") || victim.name == "CarrotFruit(Clone)")
-                            {
-                                Instantiate(fruitSplashEffectRed, victim.transform);
-                                Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
-                                //GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
-                                GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterialRed);
+                        Destroy(pieces[1], 1);
+                        victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
+                    }
+                    else if ((victim.name == "BananaFruit(Clone)") || victim.name == "PineappleFruit(Clone)")
+                    {
+                        Instantiate(fruitSplashEffectYellow, victim.transform);
+                        Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
 
-                                if (!pieces[1].GetComponent<Rigidbody>())
-                                    pieces[1].AddComponent<Rigidbody>();
+                        GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterialYellow);
 
-                                Destroy(pieces[1], 1);
-                                victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
-                            }
-                            else
-                            {
-                                Instantiate(fruitSplashEffectYellow, victim.transform);
-                                Vector3 invertedPos = new Vector3(pos.y, pos.x, pos.z);
-                                //GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, lastMousePosition, capMaterial);
-                                GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, victim.transform.position, invertedPos, capMaterialYellow);
+                        if (!pieces[1].GetComponent<Rigidbody>())
+                            pieces[1].AddComponent<Rigidbody>();
 
-                                if (!pieces[1].GetComponent<Rigidbody>())
-                                    pieces[1].AddComponent<Rigidbody>();
-
-                                Destroy(pieces[1], 1);
-                                victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
-                            }
-
-
-                        }
+                        Destroy(pieces[1], 1);
+                        victim.GetComponent<BoxCollider2D>().enabled = false; // IS THIS NECESSARY??
+                    }
+                    else //Fruit sliced is a bomb, make player lose HP
+                    {
+                        LoseLifePoint();
+                        Camera.main.GetComponent<ShakeEffect>().ShakeCamera(0.7f,0.15f);
+                        Destroy(victim.gameObject);
                     }
                     }
                 }
@@ -336,7 +336,6 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                //trailTest.SetActive(false);
                 trail.gameObject.SetActive(false);
             }
         }

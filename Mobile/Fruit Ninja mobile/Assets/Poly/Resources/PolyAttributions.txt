@@ -6,6 +6,12 @@ URL: https://poly.google.com/view/ckvSpw0JlDx
 License: Creative Commons CC-BY
 https://creativecommons.org/licenses/by/3.0/legalcode
 
+Title: Bomb
+Author: Poly by Google
+URL: https://poly.google.com/view/3_eYb_Ooax_
+License: Creative Commons CC-BY
+https://creativecommons.org/licenses/by/3.0/legalcode
+
 Title: Carrot
 Author: Poly by Google
 URL: https://poly.google.com/view/3oFkNid6ofx
