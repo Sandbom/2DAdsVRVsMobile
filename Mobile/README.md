@@ -8,4 +8,4 @@
 
 Repository for the master thesis 2020 work by Simon Sandbom &amp; Fredrik Larsson
 
-![Alt text](C:\Users\Simon\Documents\GoodScreenshots\Screenshot-start?raw=true "Title")
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
