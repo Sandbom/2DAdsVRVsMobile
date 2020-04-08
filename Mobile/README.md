@@ -7,3 +7,6 @@
 
 
 Repository for the master thesis 2020 work by Simon Sandbom &amp; Fredrik Larsson
+
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
