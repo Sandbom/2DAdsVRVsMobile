@@ -2,7 +2,7 @@
 
 ## This is the mobile version of the game used as a experiment vehicle.
 
-Repository for the master thesis 2020 work by Simon Sandbom &amp; Fredrik Larsson
+#### Repository for the master thesis 2020 work by Simon Sandbom &amp; Fredrik Larsson
 
 #### This game is a close replica of the popular mobile game Fruit Ninja. The player slices fruit to accumulate points and streaks, the player starts with 5 lives and when they are expended the game is over. The player can lose lives either by missing slicing a fruit or slicing a bomb. The score and highscore is saved and the game gets progressively harder the longer the game goes on.
 
