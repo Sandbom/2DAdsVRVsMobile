@@ -9,3 +9,10 @@
 Repository for the master thesis 2020 work by Simon Sandbom &amp; Fredrik Larsson
 
 ![Image of Yaktocat](https://github.com/Sandbom/Master-thesis-2020/blob/master/Mobile/GoodScreenshots/Screenshot-start)
+
+![Image of Yaktocat](https://github.com/Sandbom/Master-thesis-2020/blob/master/Mobile/GoodScreenshots/ScreenshotsGoodslice)
+
+![Image of Yaktocat](https://github.com/Sandbom/Master-thesis-2020/blob/master/Mobile/GoodScreenshots/Screenshots4)
+![Image of Yaktocat](https://github.com/Sandbom/Master-thesis-2020/blob/master/Mobile/GoodScreenshots/ScreenshotsBombPresent)
+![Image of Yaktocat](https://github.com/Sandbom/Master-thesis-2020/blob/master/Mobile/GoodScreenshots/Screenshot-Death)
+
