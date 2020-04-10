@@ -451,12 +451,14 @@
      <None Include="Assets\BLINDED_AM_ME package\Shaders\CelShaded_ShadowDetails.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped_Specular.shader" />
+     <None Include="Assets\MenuBoard\Doc\ChangeLogs.txt" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Radius.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Specular.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Portal.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+     <None Include="Assets\MenuBoard\Doc\ReadMe.txt" />
      <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed_Specular.shader" />

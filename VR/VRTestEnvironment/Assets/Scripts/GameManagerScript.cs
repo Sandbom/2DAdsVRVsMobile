@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class GameManagerScript : MonoBehaviour
@@ -11,6 +12,9 @@ public class GameManagerScript : MonoBehaviour
     private int highScore;
     private int currentLife;
 
+    public Text scoreText;
+    public Text highscoreText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +23,7 @@ public class GameManagerScript : MonoBehaviour
         score = 0;
 
         highScore = PlayerPrefs.GetInt("HighScore");
+        highscoreText.text = "Highscore: " + "\n" + highScore;
 
     }
 
@@ -34,12 +39,14 @@ public class GameManagerScript : MonoBehaviour
     {
         score++;
         Debug.Log("Score: " + score);
-        Debug.Log("highscore = " + highScore);
+        Debug.Log("highscore = " +"\n"+ highScore);
+        scoreText.text = "Score: "+ "\n" + score;
 
-        if(score > highScore)
+        if (score > highScore)
         {
             PlayerPrefs.SetInt("HighScore", score);
             highScore = score;
+            highscoreText.text = "Highscore: " + "\n" + highScore;
         }
     }
 
