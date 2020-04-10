@@ -17,6 +17,10 @@ public class SwordCutter : MonoBehaviour {
 
         GameManagerScript.Instance.AddScore();
 
+        int soundIndex = Random.Range(0, 2);
+        SoundManagerScript.Instance.PlaySound(soundIndex);
+
+
         if (!pieces[1].GetComponent<Rigidbody>())
             {
             
