@@ -17,6 +17,9 @@ public class GameManagerScript : MonoBehaviour
         Instance = this;
         currentLife = 5;
         score = 0;
+
+        highScore = PlayerPrefs.GetInt("HighScore");
+
     }
 
     // Update is called once per frame
@@ -31,6 +34,13 @@ public class GameManagerScript : MonoBehaviour
     {
         score++;
         Debug.Log("Score: " + score);
+        Debug.Log("highscore = " + highScore);
+
+        if(score > highScore)
+        {
+            PlayerPrefs.SetInt("HighScore", score);
+            highScore = score;
+        }
     }
 
 }
