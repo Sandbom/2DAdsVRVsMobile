@@ -10,27 +10,36 @@ public class GameManagerScript : MonoBehaviour
 
     private int score;
     private int highScore;
-    private int currentLife;
+    private float time;
 
     public Text scoreText;
     public Text highscoreText;
+    public Text timeText;
+
 
     // Start is called before the first frame update
     void Start()
     {
         Instance = this;
-        currentLife = 5;
+        
         score = 0;
+        time = 30f;
 
         highScore = PlayerPrefs.GetInt("HighScore");
         highscoreText.text = "Highscore: " + "\n" + highScore;
+
+        StartCoroutine(Countdown());
 
     }
 
     // Update is called once per frame
     void Update()
-    {
-        
+    {/*
+        time -= Time.deltaTime;
+        if(time <= 0)
+        {
+            GameOver();
+        }*/
     }
 
 
@@ -48,6 +57,28 @@ public class GameManagerScript : MonoBehaviour
             highScore = score;
             highscoreText.text = "Highscore: " + "\n" + highScore;
         }
+    }
+
+    public IEnumerator Countdown(float timeValue = 30)
+    {
+        time = timeValue;
+        while(time > 0)
+        {
+            timeText.text = "Time left: " + "\n" + "\n" + time;
+            yield return new WaitForSeconds(1.0f);
+            time--;
+        }
+        if(time <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    
+
+    private void GameOver()
+    {
+        Debug.Log("Player has lost all Lives");
     }
 
 }
