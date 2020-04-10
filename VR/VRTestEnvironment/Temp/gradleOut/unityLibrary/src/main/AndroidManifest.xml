@@ -14,7 +14,7 @@
     <meta-data android:name="unity.splash-mode" android:value="0" />
     <meta-data android:name="unity.splash-enable" android:value="False" />
     <meta-data android:name="notch.config" android:value="portrait|landscape" />
-    <meta-data android:name="unity.build-id" android:value="a55e2a0a-7183-4042-8761-b5293bb633dc" />
+    <meta-data android:name="unity.build-id" android:value="3212ab7a-9b3a-4933-929e-1568eed601c7" />
     <meta-data android:name="com.samsung.android.vr.application.mode" android:value="vr_only" />
   </application>
   <supports-gl-texture android:name="GL_KHR_texture_compression_astc_ldr" />

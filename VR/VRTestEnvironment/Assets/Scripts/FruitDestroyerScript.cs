@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class FruitDestroyerScript : MonoBehaviour
 {
+    public bool isSliced;
     void Start()
     {
-        Destroy(this.gameObject, 5f);
+        isSliced = false;
+
+        Destroy(this.gameObject, 2f);
     }
   
     // Update is called once per frame
