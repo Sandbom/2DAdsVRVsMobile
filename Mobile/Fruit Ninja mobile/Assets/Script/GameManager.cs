@@ -47,12 +47,15 @@ public class GameManager : MonoBehaviour
     private int lifePoints;
     private int streak;
     private int pointMultiplier;
+    private float time;
     public Text scoreText;
     public Text highScoreText;
     public Image[] lifePointsImages;
     public GameObject pauseMenu;
     public GameObject deathMenu;
     public GameObject damageOverlay;
+    public Text timeText;
+    public Text deathScoreText;
 
     private FruitBehaviour getFruit()
     {
@@ -131,7 +134,7 @@ public class GameManager : MonoBehaviour
     {
         streak = 0;
         pointMultiplier = 1;
-        if (lifePoints > 0)
+        /*if (lifePoints > 0)
         {
             lifePoints--;
             lifePointsImages[lifePoints].enabled = false;
@@ -139,7 +142,7 @@ public class GameManager : MonoBehaviour
         if (lifePoints == 0)
         {
             Death();
-        }
+        }*/
 
         multiplier2x.SetActive(false);
         multiplier3x.SetActive(false);
@@ -151,6 +154,22 @@ public class GameManager : MonoBehaviour
     {
         isPaused = true;
         deathMenu.SetActive(true);
+        deathScoreText.text = "Your score was:" + "\n" + score;
+    }
+
+    public IEnumerator Countdown(float timeValue = 300)
+    {
+        time = timeValue;
+        while (time > 0)
+        {
+            timeText.text = "Time left: "+ time;
+            yield return new WaitForSeconds(1.0f);
+            time--;
+        }
+        if (time <= 0)
+        {
+            Death();
+        }
     }
 
     public void AddScore(int scoreAmount)
@@ -245,19 +264,17 @@ public class GameManager : MonoBehaviour
         AdvertySDK.Init();
         fruitCols = new Collider2D[0];
         NewGame();
-
         StartCoroutine(IncreaseDifficulity());
+        StartCoroutine(Countdown());
     }
 
     private IEnumerator IncreaseDifficulity()
     {
         while (!maxSpeedReached)
         {
-            yield return new WaitForSeconds(20);
-
+            yield return new WaitForSeconds(10);
             deltaSpawn -= 0.1f;
             Debug.Log("increasing speed!" + " speed is now: " + deltaSpawn);
-
             if (deltaSpawn <= 0.4f)
             {
                 maxSpeedReached = true;

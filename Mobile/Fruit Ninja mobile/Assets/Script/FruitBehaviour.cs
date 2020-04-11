@@ -84,6 +84,9 @@ public class FruitBehaviour : MonoBehaviour
         speed = speed * 0.5f;
         isSliced = true;
 
-        GameManager.Instance.AddScore(1);
+        if (!(gameObject.name == "BombPrefab(Clone)"))
+        {
+            GameManager.Instance.AddScore(1);
+        }
     }
 }

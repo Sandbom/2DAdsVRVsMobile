@@ -20,6 +20,7 @@ public class MenuFunctionality : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ScreenCapture.CaptureScreenshot("Screenshot-start");
         highScore = PlayerPrefs.GetInt("Score");
         highScoreText.text = "High Score: " + highScore.ToString();
     }
