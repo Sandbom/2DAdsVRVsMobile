@@ -9,9 +9,21 @@ public class FruitDestroyerScript : MonoBehaviour
     {
         isSliced = false;
 
-        Destroy(this.gameObject, 2f);
+        //Destroy(this.gameObject, 2f);
+        Invoke("destroyFruit", 2f);
     }
-  
+
+
+    private void destroyFruit()
+    {
+        // If the meshcollider is active, that means the fruit was not sliced
+        if (this.gameObject.GetComponent<MeshCollider>().enabled)
+        {
+            Debug.Log("Breaking streak because of missed fruit");
+            GameManagerScript.Instance.BreakStreak();
+        }
+        Destroy(this.gameObject);
+    }
     // Update is called once per frame
     /*void Update()
     {
