@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using Adverty;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class GameManagerScript : MonoBehaviour
     void Start()
     {
         Instance = this;
-        
+        AdvertySDK.Init();
         score = 0;
         time = 30f;
         pointMultiplier = 1;
