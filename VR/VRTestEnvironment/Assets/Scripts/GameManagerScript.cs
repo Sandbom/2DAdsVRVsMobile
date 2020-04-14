@@ -100,7 +100,7 @@ public class GameManagerScript : MonoBehaviour
     public IEnumerator Countdown(float timeValue = 30)
     {
         time = timeValue;
-        while(time > 0)
+        while(time >= 0)
         {
             timeText.text = "Time left: " + "\n" + "\n" + time;
             yield return new WaitForSeconds(1.0f);
