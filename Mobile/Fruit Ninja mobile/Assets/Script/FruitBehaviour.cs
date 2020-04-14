@@ -21,7 +21,7 @@ public class FruitBehaviour : MonoBehaviour
         isActive = true;
         speed = xSpeed;
         this.verticalVelocity = verticalVelocity;
-        transform.position = new Vector3(xStart, 0, 0);
+        transform.position = new Vector3(xStart, 0, -8);
         isSliced = false;
 
         rotationSpeed = Random.Range(-180, 180);

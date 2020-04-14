@@ -143,7 +143,6 @@ public class GameManager : MonoBehaviour
         {
             Death();
         }*/
-
         multiplier2x.SetActive(false);
         multiplier3x.SetActive(false);
         multiplier4x.SetActive(false);
@@ -162,7 +161,8 @@ public class GameManager : MonoBehaviour
         time = timeValue;
         while (time > 0)
         {
-            timeText.text = "Time left: "+ time;
+            int minutesRemaining = (int) time / 60;
+            timeText.text = "Time left: "+ minutesRemaining + ":" + time%60;
             yield return new WaitForSeconds(1.0f);
             time--;
         }
@@ -272,7 +272,7 @@ public class GameManager : MonoBehaviour
     {
         while (!maxSpeedReached)
         {
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(40);
             deltaSpawn -= 0.1f;
             Debug.Log("increasing speed!" + " speed is now: " + deltaSpawn);
             if (deltaSpawn <= 0.4f)
@@ -303,7 +303,7 @@ public class GameManager : MonoBehaviour
         {
             trail.gameObject.SetActive(true);
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            pos.z = -1;
+            pos.z = -8;
             trail.position = pos;
             Instantiate(trail.gameObject, transform);
 
@@ -345,6 +345,8 @@ public class GameManager : MonoBehaviour
                         LoseLifePoint();
                         Camera.main.GetComponent<ShakeEffect>().ShakeCamera(0.7f,0.15f);
                         Destroy(victim.gameObject);
+                        score = score - 10;
+                        scoreText.text = score.ToString();
                     }
                     }
                 }
