@@ -5,6 +5,7 @@ ScriptsOnlyBuild:
     - FruitSpawner
     - GameManagerScript
     - ONSPSettings
+    - ScreenShakeVR
     - SoundManagerScript
     - SwordCutter
     Oculus.VR.Editor.dll:
@@ -97,6 +98,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 14542}
     - Class: 114
       Script: {instanceID: 14594}
+    - Class: 114
+      Script: {instanceID: 96048}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1864,6 +1867,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: d3c661506dc86504cb6d54e8e62c1161
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScreenShakeVR
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

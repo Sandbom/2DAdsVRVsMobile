@@ -407,6 +407,7 @@
      <Compile Include="Assets\Scripts\FruitDestroyerScript.cs" />
      <Compile Include="Assets\Scripts\FruitSpawner.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
+     <Compile Include="Assets\Scripts\ScreenShakeVR.cs" />
      <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
      <Compile Include="Assets\Scripts\SwordCutter.cs" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
@@ -420,6 +421,7 @@
      <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Specular.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
+     <None Include="Assets\Scripts\ScreenShakeVR.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture.shader" />

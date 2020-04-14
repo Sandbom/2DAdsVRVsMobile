@@ -17,7 +17,7 @@ public class FruitDestroyerScript : MonoBehaviour
     private void destroyFruit()
     {
         // If the meshcollider is active, that means the fruit was not sliced
-        if (this.gameObject.GetComponent<MeshCollider>().enabled)
+        if (this.gameObject.GetComponent<MeshCollider>().enabled && this.gameObject.name != "BombPrefab(Clone)")
         {
             Debug.Log("Breaking streak because of missed fruit");
             GameManagerScript.Instance.BreakStreak();

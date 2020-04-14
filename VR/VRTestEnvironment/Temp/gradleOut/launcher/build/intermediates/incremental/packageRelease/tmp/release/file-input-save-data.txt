@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Apr 14 11:34:57 CEST 2020
+#Tue Apr 14 13:44:38 CEST 2020
 20.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 143.base=D\:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\merged_assets\\release\\out
 237.path=bin/Data/sharedassets0.assets.split139

@@ -97,6 +97,12 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
+    public void DecreaseScore()
+    {
+        score = score - 10;
+        scoreText.text = "Score: " + "\n" + score;
+    }
+
     public IEnumerator Countdown(float timeValue = 30)
     {
         time = timeValue;
