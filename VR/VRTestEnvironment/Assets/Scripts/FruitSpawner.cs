@@ -22,7 +22,7 @@ public class FruitSpawner : MonoBehaviour
         {
             int bombspawn = Random.Range(0, 10);
 
-            if (bombspawn > 9)
+            if (bombspawn < 9)
             {
 
                 go = Instantiate(fruits[Random.Range(0, fruits.Length - 1)]);

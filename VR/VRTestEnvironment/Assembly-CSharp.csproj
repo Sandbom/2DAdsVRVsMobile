@@ -407,91 +407,108 @@
      <Compile Include="Assets\Scripts\FruitDestroyerScript.cs" />
      <Compile Include="Assets\Scripts\FruitSpawner.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
+     <Compile Include="Assets\Scripts\LineRendererSettings.cs" />
      <Compile Include="Assets\Scripts\ScreenShakeVR.cs" />
      <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
      <Compile Include="Assets\Scripts\SwordCutter.cs" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped_Lightup.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
-     <None Include="Assets\adverty\Resources\Shaders\WatermarkShader.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture_Rim.shader" />
-     <None Include="Assets\adverty\Resources\ComputeShaders\VisibilityCheckCS.compute" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Lightup.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Specular.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
-     <None Include="Assets\Scripts\ScreenShakeVR.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim_Bumped.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Lightup.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\burnThrough.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumped_Lightup.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Plane.shader" />
-     <None Include="Assets\PollyPrivateers\Readme.txt" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Box.shader" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidMessageSystem.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidNativeDebug.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidRenderingPlugin.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidVideoPlayerPlugin.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidWebViewPlugin.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IOSVideoTexture.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IOSWebView.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IOSWebViewTexture.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IosMessageSystem.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IosNativeDebug.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\IosNativeUtils.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\NativeAssemblyGetter.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\OsxNativeUtils.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\VRSettings.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\WebRequest.cs" />
+     <Compile Include="Assets\adverty\Scripts\Samples\InitializeAdvertySDK.cs" />
      <None Include="Assets\adverty\Resources\Shaders\AdShader.shader" />
-     <None Include="Assets\adverty\Resources\Data\settings.txt" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\Video\Resources\Multiview Stereo.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
-     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
-     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim.shader" />
-     <None Include="Assets\adverty\Resources\Shaders\UIDrawOnTop.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_Outline_Edges.shader" />
-     <None Include="Assets\adverty\Resources\Shaders\AndroidExternalTextureCopy.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\CelShaded_ShadowDetails.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped_Specular.shader" />
-     <None Include="Assets\MenuBoard\Doc\ChangeLogs.txt" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Radius.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Specular.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Portal.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Specular.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
      <None Include="Assets\MenuBoard\Doc\ReadMe.txt" />
-     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed_Specular.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\DiffuseBumped_UnlitRimColorBumped.shader" />
-     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured.shader" />
-     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_UnlitRimColor.shader" />
-     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
+     <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed_Specular.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_DiffBump.shader" />
-     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_SingleComponentExpressive.shader" />
-     <None Include="Assets\adverty\Resources\Shaders\VisibilityCheckStencilShader.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Video\Resources\Multiview Stereo.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\HandsInteraction\Shaders\OculusSampleAlphaHandOutline.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture_Rim_Bumped.shader" />
-     <None Include="Assets\adverty\Resources\Shaders\AdUnlitShader.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\Locomotion\Shaders\TriPlanarWorld.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Lightup.shader" />
+     <None Include="Assets\adverty\Resources\Shaders\WatermarkShader.shader" />
+     <None Include="Assets\adverty\Resources\ComputeShaders\VisibilityCheckCS.compute" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Plane.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Materials\Hands_Transparent.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_Loader.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_UnlitRimColor.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\burnThrough.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\ThirdPartyNotices.txt" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\DiffuseBumped_UnlitRimColorBumped.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_Outline_Edges.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Box.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped.shader" />
+     <None Include="Assets\adverty\Resources\Shaders\VisibilityCheckStencilShader.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped_Lightup.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture_Rim.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\CelShaded_ShadowDetails.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
+     <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
      <None Include="Assets\Oculus\SampleFramework\license.txt" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Portal.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Specular.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_CombinedMesh.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_CombinedMeshExpressive.shader" />
+     <None Include="Assets\adverty\Resources\Data\settings.txt" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainSmokeShader.shader" />
+     <None Include="Assets\adverty\Resources\Shaders\AdUnlitShader.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_PC_SingleComponentExpressive.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\GradientSkybox.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Radius.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarPBRV2Simple.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_01.shader" />
+     <None Include="Assets\adverty\Resources\Shaders\UIDrawOnTop.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\Avatar_Mobile_SingleComponentExpressive.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumped_Lightup.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim_Bumped.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
+     <None Include="Assets\Scripts\ScreenShakeVR.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Lightup.shader" />
+     <None Include="Assets\adverty\Resources\Shaders\AndroidExternalTextureCopy.shader" />
+     <None Include="Assets\MenuBoard\Doc\ChangeLogs.txt" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_Mobile_SingleComponent.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Locomotion\Materials\ColumnGlow.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\Expressive\AvatarEyeLens.shader" />
+     <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShader.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Core\Video\Plugins\Android\Audio360\NOTICE.txt" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Transparent_Bumped_Specular.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\ToyCubeWithOutline.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim.shader" />
+     <None Include="Assets\PollyPrivateers\Readme.txt" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\OculusSampleTrainPropsShader.shader" />
+     <None Include="Assets\Oculus\SampleFramework\Usage\DistanceGrab\Materials\CrosshairZCheat.shader" />
+     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Editor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -501,6 +518,9 @@
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-weaver.Editor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -520,9 +540,6 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
@@ -531,6 +548,9 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -711,6 +731,15 @@
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertyDirectory">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertySDK">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/2019.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

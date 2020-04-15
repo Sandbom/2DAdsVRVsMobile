@@ -84,6 +84,9 @@
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationMaterialEditor.cs" />
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPPropagationSerializationManager.cs" />
      <Compile Include="Assets\Oculus\Spatializer\editor\ONSPReflectionCustomGUI.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\Editor\AdvertyPrefabProcessor.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\Editor\AdvertyPrefabValidator.cs" />
+     <Compile Include="Assets\adverty\Scripts\PlatformSpecific\Editor\VulkanCompatibilityChecker.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -93,11 +96,11 @@
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Editor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -107,6 +110,9 @@
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-weaver.Editor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.XR.LegacyInputHelpers">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -126,9 +132,6 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
@@ -137,6 +140,9 @@
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>D:/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -315,6 +321,9 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>D:/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.VR">
+ <HintPath>D:/2019.3.5f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/2019.3.5f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
@@ -347,6 +356,24 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertyEditorDirectory">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/AdvertyEditorDirectory.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertySDKEditor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/AdvertySDKEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertyDirectory">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityLibGit2Sharp">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/UnityLibGit2Sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertySDK">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
