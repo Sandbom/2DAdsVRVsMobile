@@ -410,6 +410,7 @@
      <Compile Include="Assets\Scripts\LineRendererSettings.cs" />
      <Compile Include="Assets\Scripts\ScreenShakeVR.cs" />
      <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
+     <Compile Include="Assets\Scripts\StartGameScript.cs" />
      <Compile Include="Assets\Scripts\SwordCutter.cs" />
      <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidMessageSystem.cs" />
      <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidNativeDebug.cs" />
@@ -723,15 +724,6 @@
  <Reference Include="UnityEngine.XRModule">
  <HintPath>D:/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
  <Reference Include="AdvertyDirectory">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
  </Reference>
@@ -740,6 +732,15 @@
  </Reference>
  <Reference Include="LitJson">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Editor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.Tracker">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/Unity.Analytics.Tracker.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Analytics.StandardEvents">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.analytics@3.3.5/AnalyticsStandardEvents/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/2019.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

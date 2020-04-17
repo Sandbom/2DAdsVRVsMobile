@@ -59,25 +59,25 @@ public class GameManagerScript : MonoBehaviour
     {
         currentStreak++;
         // Fix actual streak value later and where they become relevant
-        if (currentStreak == 2)
+        if (currentStreak == 10)
         {
             twoMultiplierText.SetActive(true);
             pointMultiplier = 2;
             Debug.Log("2x multiplier active");
         }
-        else if (currentStreak == 5)
+        else if (currentStreak == 20)
         {
             twoMultiplierText.SetActive(false);
             threeMultiplierText.SetActive(true);
             pointMultiplier = 3;
         }
-        else if (currentStreak == 10)
+        else if (currentStreak == 40)
         {
             threeMultiplierText.SetActive(false);
             fourMultiplierText.SetActive(true);
             pointMultiplier = 4;
         }
-        else if (currentStreak == 15)
+        else if (currentStreak == 60)
         {
             fourMultiplierText.SetActive(false);
             sixMultiplierText.SetActive(true);
@@ -99,7 +99,7 @@ public class GameManagerScript : MonoBehaviour
 
     public void DecreaseScore()
     {
-        score = score - 10;
+        score = score - 5;
         scoreText.text = "Score: " + "\n" + score;
     }
 

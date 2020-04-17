@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - ONSPSettings
     - ScreenShakeVR
     - SoundManagerScript
+    - StartGameScript
     - SwordCutter
     Oculus.VR.Editor.dll:
     - OVRConfig
@@ -71,6 +72,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
@@ -78,31 +83,37 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16994}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 17000}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 17110}
+      Script: {instanceID: 11550}
     - Class: 114
-      Script: {instanceID: 17262}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 17324}
+      Script: {instanceID: 11788}
     - Class: 114
-      Script: {instanceID: 17850}
+      Script: {instanceID: 12336}
     - Class: 114
-      Script: {instanceID: 17860}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 17982}
+      Script: {instanceID: 12474}
     - Class: 114
-      Script: {instanceID: 18682}
+      Script: {instanceID: 13204}
     - Class: 114
-      Script: {instanceID: 19432}
+      Script: {instanceID: 13714}
     - Class: 114
-      Script: {instanceID: 19494}
+      Script: {instanceID: 13736}
     - Class: 114
-      Script: {instanceID: 20034}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 35720}
+      Script: {instanceID: 14076}
+    - Class: 114
+      Script: {instanceID: 14576}
+    - Class: 114
+      Script: {instanceID: 14632}
+    - Class: 114
+      Script: {instanceID: 25440}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -165,31 +176,31 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 16994}
+      Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 17000}
+      Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 17262}
+      Script: {instanceID: 11704}
     - Class: 114
-      Script: {instanceID: 17786}
+      Script: {instanceID: 12270}
     - Class: 114
-      Script: {instanceID: 17850}
+      Script: {instanceID: 12336}
     - Class: 114
-      Script: {instanceID: 17982}
+      Script: {instanceID: 12474}
     - Class: 114
-      Script: {instanceID: 18500}
+      Script: {instanceID: 13016}
     - Class: 114
-      Script: {instanceID: 19122}
+      Script: {instanceID: 13656}
     - Class: 114
-      Script: {instanceID: 19180}
+      Script: {instanceID: 13714}
     - Class: 114
-      Script: {instanceID: 19432}
+      Script: {instanceID: 13764}
     - Class: 114
-      Script: {instanceID: 19978}
+      Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 20034}
+      Script: {instanceID: 14576}
     - Class: 114
-      Script: {instanceID: 35748}
+      Script: {instanceID: 14632}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -585,6 +596,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportInputHandlerHMD
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: InitializeAdvertySDK
   - hash:
       serializedVersion: 2
       Hash: 7200fc309b0ed180a81fb45217da51e4
@@ -1535,6 +1552,102 @@ ScriptsOnlyBuild:
     className: DebugUIBuilder
   - hash:
       serializedVersion: 2
+      Hash: cb3031d975398e1b82de49454779dc7a
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty
+    className: AdvertySettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: CollapsedConsoleView
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: DebugButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: DebugCanvasView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: DebugConsoleView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: ExpandedConsoleView
+  - hash:
+      serializedVersion: 2
+      Hash: cc004815921bdad952f9fe9f67565005
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.DebugMode
+    className: ImpVizComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty
+    className: MonoBehaviorEventsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty
+    className: MonoBehaviourCameraEventsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty
+    className: OnRenderImageOverride
+  - hash:
+      serializedVersion: 2
+      Hash: dd3f68060fb0497e7d07df8bde99072b
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty
+    className: Unit
+  - hash:
+      serializedVersion: 2
+      Hash: 5f1752ed2092162f016c19510c28a8b9
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: VRButton
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.Views
+    className: VRCanvasView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug
+    className: VRCursor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug.UIBuilder
+    className: VRExpandedConsoleView
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: AdvertySDK.dll
+    namespaceName: Adverty.AdDebug
+    className: VRInputModule
+  - hash:
+      serializedVersion: 2
       Hash: a6ded2673e2fb033edf3bf8af9c7c7dc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1961,106 +2074,10 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: cb3031d975398e1b82de49454779dc7a
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty
-    className: AdvertySettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: CollapsedConsoleView
-  - hash:
-      serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: DebugButton
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: DebugCanvasView
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: DebugConsoleView
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: ExpandedConsoleView
-  - hash:
-      serializedVersion: 2
-      Hash: cc004815921bdad952f9fe9f67565005
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.DebugMode
-    className: ImpVizComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty
-    className: MonoBehaviorEventsManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty
-    className: MonoBehaviourCameraEventsManager
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty
-    className: OnRenderImageOverride
-  - hash:
-      serializedVersion: 2
-      Hash: dd3f68060fb0497e7d07df8bde99072b
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty
-    className: Unit
-  - hash:
-      serializedVersion: 2
-      Hash: 5f1752ed2092162f016c19510c28a8b9
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: VRButton
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.Views
-    className: VRCanvasView
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug
-    className: VRCursor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug.UIBuilder
-    className: VRExpandedConsoleView
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: AdvertySDK.dll
-    namespaceName: Adverty.AdDebug
-    className: VRInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 9b6d332ea542acd074deab23a3b3db32
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: InitializeAdvertySDK
+    className: StartGameScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity

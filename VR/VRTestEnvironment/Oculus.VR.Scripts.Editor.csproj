@@ -273,6 +273,24 @@
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>D:/2019.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="AdvertyEditorDirectory">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/AdvertyEditorDirectory.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertySDKEditor">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/AdvertySDKEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityLibGit2Sharp">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/UnityLibGit2Sharp.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertyDirectory">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
+ </Reference>
+ <Reference Include="AdvertySDK">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertySDK.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/LitJson.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -287,24 +305,6 @@
  </Reference>
  <Reference Include="UnityEditor.Purchasing">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.purchasing@2.0.6/Editor/UnityEditor.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="AdvertyEditorDirectory">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/AdvertyEditorDirectory.dll</HintPath>
- </Reference>
- <Reference Include="AdvertySDKEditor">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/AdvertySDKEditor.dll</HintPath>
- </Reference>
- <Reference Include="AdvertyDirectory">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertyDirectory.dll</HintPath>
- </Reference>
- <Reference Include="UnityLibGit2Sharp">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Editor/Plugins/UnityLibGit2Sharp.dll</HintPath>
- </Reference>
- <Reference Include="AdvertySDK">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/AdvertySDK.dll</HintPath>
- </Reference>
- <Reference Include="LitJson">
- <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Assets/adverty/Plugins/LitJson.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
