@@ -312,12 +312,47 @@ public class GameManager : MonoBehaviour
 
         if (Time.time - lastSpawn > deltaSpawn)
         {
-            FruitBehaviour fb = getFruit();
-            float randomX = Random.Range(-1.65f, 1.65f);
+            int amountOfFruit = Random.Range(0, 10);
 
-            fb.LauchFruit(Random.Range(1.85f, 2.75f), randomX, -randomX);
+            if(amountOfFruit > 3)
+            {
+                FruitBehaviour fb = getFruit();
+                float randomX = Random.Range(-1.65f, 1.65f);
 
-            lastSpawn = Time.time;
+                fb.LauchFruit(Random.Range(1.85f, 2.75f), randomX, -randomX);
+
+                lastSpawn = Time.time;
+            }
+            else if(amountOfFruit == 2 || amountOfFruit == 1)
+            {
+                FruitBehaviour fb1 = getFruit();
+                FruitBehaviour fb2 = getFruit();
+                float randomX1 = Random.Range(-1.65f, 1.65f);
+                float randomX2 = Random.Range(-1.65f, 1.65f);
+
+                fb1.LauchFruit(Random.Range(1.85f, 2.75f), randomX1, -randomX1);
+                fb2.LauchFruit(Random.Range(1.85f, 2.75f), randomX2, -randomX2);
+
+                lastSpawn = Time.time;
+            }
+            else if(amountOfFruit == 0)
+            {
+                FruitBehaviour fb1 = getFruit();
+                FruitBehaviour fb2 = getFruit();
+                FruitBehaviour fb3 = getFruit();
+
+                float randomX1 = Random.Range(-1.65f, 1.65f);
+                float randomX2 = Random.Range(-1.65f, 1.65f);
+                float randomX3 = Random.Range(-1.65f, 1.65f);
+
+                fb1.LauchFruit(Random.Range(1.85f, 2.75f), randomX1, -randomX1);
+                fb2.LauchFruit(Random.Range(1.85f, 2.75f), randomX2, -randomX2);
+                fb3.LauchFruit(Random.Range(1.85f, 2.75f), randomX3, -randomX3);
+
+
+                lastSpawn = Time.time;
+
+            }
         }
 
         if (Input.GetMouseButton(0))
