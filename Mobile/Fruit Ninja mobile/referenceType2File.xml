@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTypeDate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TypeDate>
+    <guid>8a83dd82c48bb394d9477398904b4786</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/AndroidMessageSystem.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9231871+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.AndroidMessageSystem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>57bd9a9f8d2acbb49a805cf7e5e3d776</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/AndroidNativeDebug.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9241833+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.AndroidNativeDebug</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c07ad37e14193d6418dd964109ab45e4</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/AndroidRenderingPlugin.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9251816+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.AndroidRenderingPlugin</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d641b78aecb14c40bb0bc5f256e3a4e</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/AndroidVideoPlayerPlugin.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9261797+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.AndroidVideoPlayerPlugin</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b29f398068f8f4441841e87563fd1757</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/AndroidWebViewPlugin.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9261797+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.AndroidWebViewPlugin</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>846f8e197043cfe4199bc5890bd31a0c</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/IosMessageSystem.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9331596+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.IosMessageSystem</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8e0e47ec1482f68469e28946679bd49f</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/IosNativeDebug.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9341568+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.IosNativeDebug</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7da75ae3d58b46d408e616cd1a22ff20</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/IosNativeUtils.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9351543+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.IosNativeUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2f72b4e9be7cb3d47a4c790abeebb20f</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/IOSVideoTexture.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9301677+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.IosVideoTexture</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dcbc38499497941e7a822c305cb70e3b</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/IOSWebView.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9311652+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.IosWebView</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5bee6d48f821c4befba0b8314c4cd3bb</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/IOSWebViewTexture.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9321631+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.IosWebViewTexture</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>903f06f459ae4bf499136f83a9d6c755</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/NativeAssemblyGetter.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9351543+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.NativeAssemblyGetter</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d7450aa040dda874494cac4ce1ad113b</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/OsxNativeUtils.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9361527+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.OsxUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eab44860454cefd46b07343e5c9c95b8</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/VRSettings.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9371503+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.VRSettings</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>048ba75421bc2e248ae76a34c2662918</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/WebRequest.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9381464+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.PlatformSpecific.WebRequest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d3589cd5792328244a8374175acca7be</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/Editor/AdvertyPrefabProcessor.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9281731+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.Editor.AdvertyPrefabProcessor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>86bc8e09515efcd428c11f0fb1ec85eb</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/Editor/AdvertyPrefabValidator.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9291716+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.Editor.AdvertyPrefabValidator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>30a003ed38eede44da3a40b0bf001b1a</guid>
+    <fileName>Assets/adverty/Scripts/PlatformSpecific/Editor/VulkanCompatibilityChecker.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9301677+02:00</timeStamp>
+    <typeFullName>
+      <string>Adverty.Editor.VulkanCompatibilityChecker</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>951df9430d81bc04cb7fa65ed4a55598</guid>
+    <fileName>Assets/adverty/Scripts/Samples/InitializeAdvertySDK.cs</fileName>
+    <timeStamp>2020-03-31T14:07:32.9391447+02:00</timeStamp>
+    <typeFullName>
+      <string>InitializeAdvertySDK</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3432089be753b4cdcb9021ff181a1d40</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Editor/MeshColliderPerMaterial_Editor.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.7446302+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Inspector.MeshColliderPerMaterial_Editor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3328803a201cf4d8285c4b68976c5316</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Editor/Spline3D_Editor.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.7456272+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Inspector.Spline3D_Editor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7a0d55557eccc4d758edc572e3719a52</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/Electricity.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8802687+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Electricity</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1b07a0fee1f47478d9a057222af13934</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/ExampleUseof_MeshColliderPeMaterial.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8812659+02:00</timeStamp>
+    <typeFullName>
+      <string>ExampleUseof_MeshColliderPeMaterial</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3315261d6aa5d4952b09b54561453ec3</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/ExampleUseof_MeshCut.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8822631+02:00</timeStamp>
+    <typeFullName>
+      <string>ExampleUseof_MeshCut</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>684fc303bd0f24292abe3fc2e2bbbfa0</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/ExampleUseof_Trajectory_Predicted_Path.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8832595+02:00</timeStamp>
+    <typeFullName>
+      <string>ExampleUseof_Trajectory_Predicted_Path</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0fe9b54c7b4d54a1e82912e684dbc2de</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/Math_Functions.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8842574+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Math_Functions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>257101a5bdb344e73bd2d6c379070f41</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/MeshColliderPerMaterial.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8852543+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.MeshColliderPerMaterial</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>245aa739fea004bcaa2da96fef6f8599</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/MeshCut.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8862515+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.MeshCut</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>498d240046e824b5d9eacaace37030b5</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/Mesh_Maker.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8872483+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Mesh_Maker</string>
+      <string>BLINDED_AM_ME.Mesh_Maker+Triangle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>efb103b10f8354b0484ef38697f3856f</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/ParticlePathFlow.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8882457+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.ParticlePathFlow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e5aeb31ff4f194280a3a0884d7f24cb6</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/ParticlePathRectangle.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8892429+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.ParticlePathRectangle</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b545707aca37b43caa27fa5cf3a16b9f</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/ParticleTexture.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8892429+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.ParticleTexture</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>652b1f36e8aee4ed3bed06769bdde809</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/Path_Comp.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8902405+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Path_Comp</string>
+      <string>BLINDED_AM_ME.Path_Point</string>
+      <string>BLINDED_AM_ME.Path</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>222963aca561a414ba0c0f5bca36f10c</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/PortalView.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8912391+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.PortalView</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>96f14a62e4fd6414faef5b3f63b5d1c4</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/SetDepthTextureMode.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8922358+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.SetDepthTextureMode</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3279e8f9a236f4da7a485060bb6ec5be</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/Spline3D.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8932321+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME.Spline3D</string>
+      <string>BLINDED_AM_ME.Spline3D+LightmapUnwrapping</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7163d44a4cfb148539a09259ac1f8fce</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/_ApplicationComponents/ApplicationComponent_Manager.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8982202+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME._ApplicationComponents.ApplicationComponent_Manager</string>
+      <string>BLINDED_AM_ME._ApplicationComponents.ApplicationComponent_Manager+ApplicationComponent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8417b7d68c881438ba0ecd18d088c826</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/_ApplicationComponents/SaveData_ApplicationComponent.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.8992223+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME._ApplicationComponents.SaveData_ApplicationComponent</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>05279ec347b994739a71fbe8ae5b8d1c</guid>
+    <fileName>Assets/BLINDED_AM_ME package/Scripts/_ScriptHelper/SelectableSphereGizmo.cs</fileName>
+    <timeStamp>2020-03-31T15:53:59.9012118+02:00</timeStamp>
+    <typeFullName>
+      <string>BLINDED_AM_ME._ScriptHelper.SelectableSphereGizmo</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>842f43ac94b4b4f72ac0898650ddcc44</guid>
+    <fileName>Assets/Cleaner/Editor/AssetCollector.cs</fileName>
+    <timeStamp>2015-12-09T19:51:26+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.AssetCollector</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>805140a4856714e288ea84985d3023df</guid>
+    <fileName>Assets/Cleaner/Editor/AssetReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T19:51:26+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>202c278a17939b24c8b79c0ee1f94d8f</guid>
+    <fileName>Assets/Cleaner/Editor/ClassReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T19:51:26+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ClassReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0d05386265df34bac8d0b6df44aa494c</guid>
+    <fileName>Assets/Cleaner/Editor/CollectionData.cs</fileName>
+    <timeStamp>2015-12-09T19:51:26+01:00</timeStamp>
+    <typeFullName>
+      <string>CollectionData</string>
+      <string>TypeDate</string>
+      <string>IReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>74eec3bfba0594259ac2843353c082a3</guid>
+    <fileName>Assets/Cleaner/Editor/FindUnusedAssetsWindow.cs</fileName>
+    <timeStamp>2015-12-09T19:51:26+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.FindUnusedAssetsWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c4f01a79a77a45a9a84004cc2b78098</guid>
+    <fileName>Assets/Cleaner/Editor/ShaderReferenceCollection.cs</fileName>
+    <timeStamp>2015-12-09T19:51:26+01:00</timeStamp>
+    <typeFullName>
+      <string>AssetClean.ShaderReferenceCollection</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>03007da89a74c904badac2bac6eb608b</guid>
+    <fileName>Assets/PolyToolkit/Editor/AnalyticsSender.cs</fileName>
+    <timeStamp>2018-10-30T17:05:52+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.AnalyticsSender</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>efa7b7e584b83a84ba2e5d5161b7a56d</guid>
+    <fileName>Assets/PolyToolkit/Editor/CheckBuild.cs</fileName>
+    <timeStamp>2018-10-30T17:08:34+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.CheckBuild</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f3d00049448513c4f80278c19eca81f4</guid>
+    <fileName>Assets/PolyToolkit/Editor/PostInstallHandler.cs</fileName>
+    <timeStamp>2018-10-30T17:08:36+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.PostInstallHandler</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c92cab08cb256b44282cc813e8abd250</guid>
+    <fileName>Assets/PolyToolkit/Editor/PtAnalytics.cs</fileName>
+    <timeStamp>2018-10-30T17:08:03+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.PtAnalytics</string>
+      <string>PolyToolkitEditor.PtAnalytics+Action</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d4aaeeb8c2de4ac459fc0632d96c1be5</guid>
+    <fileName>Assets/PolyToolkit/Editor/PtSettingsEditor.cs</fileName>
+    <timeStamp>2018-10-30T17:08:12+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.PtSettingsEditor</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0a47beff868188a4d85dd8d7cb4ebd0a</guid>
+    <fileName>Assets/PolyToolkit/Editor/PtUtils.cs</fileName>
+    <timeStamp>2018-10-30T17:05:57+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.PtUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>dba2d004725503a4a852a2e095195bb9</guid>
+    <fileName>Assets/PolyToolkit/Editor/WarnAboutUsingPolyInternal.cs</fileName>
+    <timeStamp>2018-10-30T17:08:19+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.WarnAboutUsingPolyInternal</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7d1b183bf0f2be34da82358842b2ca83</guid>
+    <fileName>Assets/PolyToolkit/Editor/WarnIfManagerNotInScene.cs</fileName>
+    <timeStamp>2018-10-30T17:07:16+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.WarnIfManagerNotInScene</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>14062b472501c1044943c630506b24bc</guid>
+    <fileName>Assets/PolyToolkit/Editor/AssetBrowser/AssetBrowserManager.cs</fileName>
+    <timeStamp>2018-10-30T17:06:07+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.AssetBrowserManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eb8ea7ffee97b8d41a7f33638ea373f7</guid>
+    <fileName>Assets/PolyToolkit/Editor/AssetBrowser/AssetBrowserWindow.cs</fileName>
+    <timeStamp>2018-10-30T17:08:31+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.AssetBrowserWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e68c770de4589eb4898a4008ad01c81e</guid>
+    <fileName>Assets/PolyToolkit/Editor/AssetBrowser/GUIHelper.cs</fileName>
+    <timeStamp>2018-10-30T17:08:27+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.GUIHelper</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d923ed03eb49c14098eb5fd63a14a9a</guid>
+    <fileName>Assets/PolyToolkit/Editor/AssetBrowser/ThumbnailCache.cs</fileName>
+    <timeStamp>2018-10-30T17:06:14+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.ThumbnailCache</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>08776fb35a5a85148a7f89c2a607b36b</guid>
+    <fileName>Assets/PolyToolkit/Editor/AssetBrowser/WelcomeWindow.cs</fileName>
+    <timeStamp>2018-10-30T17:05:55+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.WelcomeWindow</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>45fe4e76f778c794d836427af1815601</guid>
+    <fileName>Assets/PolyToolkit/Editor/Importer/AttributionFileGenerator.cs</fileName>
+    <timeStamp>2018-10-30T17:06:41+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.AttributionFileGenerator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3bcb6c884f2edae4eae8337eaaecf68e</guid>
+    <fileName>Assets/PolyToolkit/Editor/Importer/PolyImporter.cs</fileName>
+    <timeStamp>2018-10-30T17:06:32+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitEditor.PolyImporter</string>
+      <string>PolyToolkitEditor.PolyImporter+ImportRequest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp-Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>19bb0d5cd0f9a4344b7352930854a4af</guid>
+    <fileName>Assets/PolyToolkit/ExampleScripts/HelloPoly.cs</fileName>
+    <timeStamp>2018-10-30T17:06:12+01:00</timeStamp>
+    <typeFullName>
+      <string>HelloPoly</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d86541618ff5fc745bb4482f919d2b5d</guid>
+    <fileName>Assets/PolyToolkit/ExampleScripts/Rotate.cs</fileName>
+    <timeStamp>2018-10-30T17:08:15+01:00</timeStamp>
+    <typeFullName>
+      <string>Rotate</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5b193722383226d418840e718e6199e9</guid>
+    <fileName>Assets/PolyToolkit/ExampleScripts/ShowFeaturedExample.cs</fileName>
+    <timeStamp>2018-10-30T17:06:55+01:00</timeStamp>
+    <typeFullName>
+      <string>ShowFeaturedExample</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f5d4753417449cc46bc7a554f0be097e</guid>
+    <fileName>Assets/PolyToolkit/Internal/AsyncImporter.cs</fileName>
+    <timeStamp>2018-10-30T17:08:39+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.AsyncImporter</string>
+      <string>PolyToolkitInternal.AsyncImporter+AsyncImportCallback</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9925f5efc16424d4c8fec9fa728c415e</guid>
+    <fileName>Assets/PolyToolkit/Internal/AttributionGeneration.cs</fileName>
+    <timeStamp>2018-10-30T17:07:34+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.AttributionGeneration</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>4d45bf07e063f7643b99a4971a67c22f</guid>
+    <fileName>Assets/PolyToolkit/Internal/Authenticator.cs</fileName>
+    <timeStamp>2018-10-30T17:06:43+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.Authenticator</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8fbe3c7f46be3e44fb3dc136d11526d5</guid>
+    <fileName>Assets/PolyToolkit/Internal/AutoStringify.cs</fileName>
+    <timeStamp>2018-10-30T17:07:29+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.AutoStringify</string>
+      <string>PolyToolkitInternal.AutoStringifiable</string>
+      <string>PolyToolkitInternal.AutoStringifyAbridged</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fa6e28eaf932d0c4aa8ba33e7aafec25</guid>
+    <fileName>Assets/PolyToolkit/Internal/CoroutineRunner.cs</fileName>
+    <timeStamp>2018-10-30T17:08:42+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.CoroutineRunner</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8214b1e93247af64bad10ae0fe180071</guid>
+    <fileName>Assets/PolyToolkit/Internal/DisabledPropertyAttribute.cs</fileName>
+    <timeStamp>2018-10-30T17:07:18+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.DisabledPropertyAttribute</string>
+      <string>PolyToolkitInternal.DisabledPropertyDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2c9884ba956bc2648a0299f2dd09b525</guid>
+    <fileName>Assets/PolyToolkit/Internal/EditTimeImportOptions.cs</fileName>
+    <timeStamp>2018-10-30T17:06:21+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.EditTimeImportOptions</string>
+      <string>PolyToolkitInternal.ImportOptionsGui</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0c9e517a09a646348b90c085b765e821</guid>
+    <fileName>Assets/PolyToolkit/Internal/Features.cs</fileName>
+    <timeStamp>2018-10-30T17:05:58+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.Features</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>066d2944ecf7cd84b9e570761abd8fe1</guid>
+    <fileName>Assets/PolyToolkit/Internal/Gltf1Schema.cs</fileName>
+    <timeStamp>2018-10-30T17:05:53+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.Gltf1Root</string>
+      <string>PolyToolkitInternal.Gltf1Buffer</string>
+      <string>PolyToolkitInternal.Gltf1Accessor</string>
+      <string>PolyToolkitInternal.Gltf1BufferView</string>
+      <string>PolyToolkitInternal.Gltf1Primitive</string>
+      <string>PolyToolkitInternal.Gltf1Shader</string>
+      <string>PolyToolkitInternal.Gltf1Program</string>
+      <string>PolyToolkitInternal.Gltf1Technique</string>
+      <string>PolyToolkitInternal.Gltf1Image</string>
+      <string>PolyToolkitInternal.Gltf1Texture</string>
+      <string>PolyToolkitInternal.TiltBrushGltf1PbrValues</string>
+      <string>PolyToolkitInternal.Gltf1Material</string>
+      <string>PolyToolkitInternal.Gltf1Mesh</string>
+      <string>PolyToolkitInternal.Gltf1Node</string>
+      <string>PolyToolkitInternal.Gltf1Scene</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7ccda7f5e9d295042b901c4e9cd17302</guid>
+    <fileName>Assets/PolyToolkit/Internal/Gltf2Schema.cs</fileName>
+    <timeStamp>2018-10-30T17:07:15+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.Gltf2Root</string>
+      <string>PolyToolkitInternal.Gltf2Buffer</string>
+      <string>PolyToolkitInternal.Gltf2Accessor</string>
+      <string>PolyToolkitInternal.Gltf2BufferView</string>
+      <string>PolyToolkitInternal.Gltf2Primitive</string>
+      <string>PolyToolkitInternal.Gltf2Material</string>
+      <string>PolyToolkitInternal.Gltf2Material+PbrMetallicRoughness</string>
+      <string>PolyToolkitInternal.Gltf2Material+TextureInfo</string>
+      <string>PolyToolkitInternal.Gltf2Texture</string>
+      <string>PolyToolkitInternal.Gltf2Image</string>
+      <string>PolyToolkitInternal.Gltf2Mesh</string>
+      <string>PolyToolkitInternal.Gltf2Node</string>
+      <string>PolyToolkitInternal.Gltf2Scene</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>323480cbcea75f3449284d50bbcadba4</guid>
+    <fileName>Assets/PolyToolkit/Internal/GltfMaterialConverter.cs</fileName>
+    <timeStamp>2018-10-30T17:06:26+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.GltfMaterialConverter</string>
+      <string>PolyToolkitInternal.GltfMaterialConverter+UnityMaterial</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>90c7080a01def4f49900c122879bb31c</guid>
+    <fileName>Assets/PolyToolkit/Internal/GltfSchemaCommon.cs</fileName>
+    <timeStamp>2018-10-30T17:07:29+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.GltfSchemaVersion</string>
+      <string>PolyToolkitInternal.BadJson</string>
+      <string>PolyToolkitInternal.JsonVectorConverter</string>
+      <string>PolyToolkitInternal.GltfJsonContractResolver</string>
+      <string>PolyToolkitInternal.GltfAsset</string>
+      <string>PolyToolkitInternal.MeshPrecursor</string>
+      <string>PolyToolkitInternal.GltfRootBase</string>
+      <string>PolyToolkitInternal.GltfBufferBase</string>
+      <string>PolyToolkitInternal.GltfAccessorBase</string>
+      <string>PolyToolkitInternal.GltfAccessorBase+ComponentType</string>
+      <string>PolyToolkitInternal.GltfBufferViewBase</string>
+      <string>PolyToolkitInternal.GltfPrimitiveBase</string>
+      <string>PolyToolkitInternal.GltfPrimitiveBase+Mode</string>
+      <string>PolyToolkitInternal.GltfImageBase</string>
+      <string>PolyToolkitInternal.GltfTextureBase</string>
+      <string>PolyToolkitInternal.GltfMaterialBase</string>
+      <string>PolyToolkitInternal.GltfMeshBase</string>
+      <string>PolyToolkitInternal.GltfNodeBase</string>
+      <string>PolyToolkitInternal.GltfSceneBase</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>9f1b07f35e75afe4684f07170d9ffc7c</guid>
+    <fileName>Assets/PolyToolkit/Internal/HelpTextAttribute.cs</fileName>
+    <timeStamp>2018-10-30T17:07:35+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.HelpTextAttribute</string>
+      <string>PolyToolkitInternal.HelpTextDrawer</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>970ae5dc6ceedf1409381dc4aaae648a</guid>
+    <fileName>Assets/PolyToolkit/Internal/ImportGltf.cs</fileName>
+    <timeStamp>2018-10-30T17:07:33+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.ImportGltf</string>
+      <string>PolyToolkitInternal.ImportGltf+GltfImportResult</string>
+      <string>PolyToolkitInternal.ImportGltf+ImportState</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1d3fc8b95a1c2de4082f9333cafee1dd</guid>
+    <fileName>Assets/PolyToolkit/Internal/IntRange.cs</fileName>
+    <timeStamp>2018-10-30T17:06:13+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.IntRange</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>836eeae312a7b7649b5687a470ed2db2</guid>
+    <fileName>Assets/PolyToolkit/Internal/IUriLoader.cs</fileName>
+    <timeStamp>2018-10-30T17:07:19+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.RawImage</string>
+      <string>PolyToolkitInternal.IBufferReader</string>
+      <string>PolyToolkitInternal.IUriLoader</string>
+      <string>PolyToolkitInternal.Reader</string>
+      <string>PolyToolkitInternal.BufferedStreamLoader</string>
+      <string>PolyToolkitInternal.HashedPathBufferedStreamLoader</string>
+      <string>PolyToolkitInternal.BufferedStreamReader</string>
+      <string>PolyToolkitInternal.FullyBufferedLoader</string>
+      <string>PolyToolkitInternal.FormatLoader</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>967feabbaa8822641add475087aeda4a</guid>
+    <fileName>Assets/PolyToolkit/Internal/MathUtils.cs</fileName>
+    <timeStamp>2018-10-30T17:07:31+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.MathUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>11fa1c7039e414342bc8c4a453eb3d10</guid>
+    <fileName>Assets/PolyToolkit/Internal/MeasurementUnits.cs</fileName>
+    <timeStamp>2018-10-30T17:06:06+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.LengthUnit</string>
+      <string>PolyToolkitInternal.LengthWithUnit</string>
+      <string>PolyToolkitInternal.MeasurementUnits</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>db4c2a72db7758e438e85f1b2ff07343</guid>
+    <fileName>Assets/PolyToolkit/Internal/PolyInternalUtils.cs</fileName>
+    <timeStamp>2018-10-30T17:08:18+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.PolyInternalUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>5d6a36ce07efcd84c92489695140f206</guid>
+    <fileName>Assets/PolyToolkit/Internal/PolyMainInternal.cs</fileName>
+    <timeStamp>2018-10-30T17:06:56+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.PolyMainInternal</string>
+      <string>PolyToolkitInternal.PolyMainInternal+FetchProgressCallback</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>0c6dd409854d1dd46bff92ae5fb04289</guid>
+    <fileName>Assets/PolyToolkit/Internal/PolyUtils.cs</fileName>
+    <timeStamp>2018-10-30T17:05:57+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.PolyUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fe5294f6e6da35c42bf224e48a788c5a</guid>
+    <fileName>Assets/PolyToolkit/Internal/PtDebug.cs</fileName>
+    <timeStamp>2018-10-30T17:08:46+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.PtDebug</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>a603ca56417194c4fbf2ac70d2c3efd1</guid>
+    <fileName>Assets/PolyToolkit/Internal/PtSettings.cs</fileName>
+    <timeStamp>2018-10-30T17:07:39+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.PtSettings</string>
+      <string>PolyToolkitInternal.PtSettings+SurfaceShaderMaterial</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3ccd64dba3997064789ac173855e1dbd</guid>
+    <fileName>Assets/PolyToolkit/Internal/ThumbnailFetcher.cs</fileName>
+    <timeStamp>2018-10-30T17:06:33+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.ThumbnailFetcher</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>11c848c82fbd6bb4784bb2d9b904e38d</guid>
+    <fileName>Assets/PolyToolkit/Internal/UnityCompat.cs</fileName>
+    <timeStamp>2018-10-30T17:06:05+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.UnityCompat</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b761db401d1c4a64abbea7dd57467443</guid>
+    <fileName>Assets/PolyToolkit/Internal/Version.cs</fileName>
+    <timeStamp>2018-10-30T17:07:55+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.Version</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>f55c10254e78a3a4cb73e95dfbb9df4e</guid>
+    <fileName>Assets/PolyToolkit/Internal/api_clients/poly_client/PolyClient.cs</fileName>
+    <timeStamp>2018-10-30T17:08:38+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.api_clients.poly_client.ParseAssetsBackgroundWork</string>
+      <string>PolyToolkitInternal.api_clients.poly_client.ParseAssetBackgroundWork</string>
+      <string>PolyToolkitInternal.api_clients.poly_client.PolyClient</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7db72f0e0db7a6a48b9c8a5d295e086e</guid>
+    <fileName>Assets/PolyToolkit/Internal/api_clients/poly_client/PolyClientUtils.cs</fileName>
+    <timeStamp>2018-10-30T17:07:16+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.api_clients.poly_client.PolyClientUtils</string>
+      <string>PolyToolkitInternal.api_clients.poly_client.PolyClientUtils+GetRawFileDataTextCallback</string>
+      <string>PolyToolkitInternal.api_clients.poly_client.PolyClientUtils+GetRawFileDataBytesCallback</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>3117be03c2cc51240bd0c0e494d3b230</guid>
+    <fileName>Assets/PolyToolkit/Internal/caching/PersistentBlobCache.cs</fileName>
+    <timeStamp>2018-10-30T17:06:25+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.caching.PersistentBlobCache</string>
+      <string>PolyToolkitInternal.caching.PersistentBlobCache+CacheReadCallback</string>
+      <string>PolyToolkitInternal.caching.PersistentBlobCache+RequestType</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>7b38968dfb5d3a94dbc4f289aa1b2d34</guid>
+    <fileName>Assets/PolyToolkit/Internal/entitlement/OAuth2Identity.cs</fileName>
+    <timeStamp>2018-10-30T17:07:13+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.entitlement.OAuth2Identity</string>
+      <string>PolyToolkitInternal.entitlement.OAuth2Identity+UserInfo</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>886608b14fa9a314787ada9fc99e7f1d</guid>
+    <fileName>Assets/PolyToolkit/Internal/model/export/Exporter.cs</fileName>
+    <timeStamp>2018-10-30T17:07:23+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.model.export.FormatSaveData</string>
+      <string>PolyToolkitInternal.model.export.FormatDataFile</string>
+      <string>PolyToolkitInternal.model.export.SaveData</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>888a02759b5e87f4c8c4ad5e6c25690c</guid>
+    <fileName>Assets/PolyToolkit/Internal/model/export/ExportUtils.cs</fileName>
+    <timeStamp>2018-10-30T17:07:23+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.model.export.ExportUtils</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fac7dd670b9fb074b9736a9911cc612d</guid>
+    <fileName>Assets/PolyToolkit/Internal/model/util/BackgroundMain.cs</fileName>
+    <timeStamp>2018-10-30T17:08:43+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.model.util.BackgroundMain</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>23702cfc251d4a34f9dc29d4ff7d3ea0</guid>
+    <fileName>Assets/PolyToolkit/Internal/model/util/BackgroundWork.cs</fileName>
+    <timeStamp>2018-10-30T17:06:17+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.model.util.BackgroundWork</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>000b4aa2be11f674f9e98c1516edad15</guid>
+    <fileName>Assets/PolyToolkit/Internal/model/util/ConcurrentQueue.cs</fileName>
+    <timeStamp>2018-10-30T17:05:50+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.model.util.ConcurrentQueue`1</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>e1f3cb0e9bee92d49838df1e35da91e7</guid>
+    <fileName>Assets/PolyToolkit/Internal/model/util/WebRequestManager.cs</fileName>
+    <timeStamp>2018-10-30T17:08:24+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkitInternal.client.model.util.WebRequestManager</string>
+      <string>PolyToolkitInternal.client.model.util.WebRequestManager+CreationCallback</string>
+      <string>PolyToolkitInternal.client.model.util.WebRequestManager+CompletionCallback</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>103cd3480fe93f646be28a7da5812871</guid>
+    <fileName>Assets/PolyToolkit/Internal/tbt/Scripts/BrushDescriptor.cs</fileName>
+    <timeStamp>2018-10-30T17:06:03+01:00</timeStamp>
+    <typeFullName>
+      <string>TiltBrushToolkit.BrushDescriptor</string>
+      <string>TiltBrushToolkit.BrushDescriptor+Semantic</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>8a4e1c4479d3ef54a83ac7187217ec6a</guid>
+    <fileName>Assets/PolyToolkit/Internal/tbt/Scripts/BrushManifest.cs</fileName>
+    <timeStamp>2018-10-30T17:07:26+01:00</timeStamp>
+    <typeFullName>
+      <string>TiltBrushToolkit.BrushManifest</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>614800611c666bd498aa946dc06be1f0</guid>
+    <fileName>Assets/PolyToolkit/Internal/tbt/Scripts/SerializableGuid.cs</fileName>
+    <timeStamp>2018-10-30T17:06:58+01:00</timeStamp>
+    <typeFullName>
+      <string>TiltBrushToolkit.SerializableGuidDrawer</string>
+      <string>TiltBrushToolkit.SerializableGuid</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>c4938c3b173177547ac856fd6cff5aa3</guid>
+    <fileName>Assets/PolyToolkit/Internal/tests/TestRuntimeImport.cs</fileName>
+    <timeStamp>2018-10-30T17:08:00+01:00</timeStamp>
+    <typeFullName>
+      <string>TestRuntimeImport</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>bffc1b9d57b39eb47a9ca38dcb349814</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PolyApi.cs</fileName>
+    <timeStamp>2018-10-30T17:07:58+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PolyApi</string>
+      <string>PolyToolkit.PolyApi+ListAssetsCallback</string>
+      <string>PolyToolkit.PolyApi+GetAssetCallback</string>
+      <string>PolyToolkit.PolyApi+FetchFormatFilesCallback</string>
+      <string>PolyToolkit.PolyApi+ImportCallback</string>
+      <string>PolyToolkit.PolyApi+FetchThumbnailCallback</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>1530f2ba1ee5dc547ae44f65fc61f142</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PolyConfigTypes.cs</fileName>
+    <timeStamp>2018-10-30T17:06:08+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PolyAuthConfig</string>
+      <string>PolyToolkit.PolyCacheConfig</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>b7d56f410e6f86f47aba5e2c24b79571</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PolyImportOptions.cs</fileName>
+    <timeStamp>2018-10-30T17:07:55+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PolyImportOptions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>182cbbbef9cdbe1499d8032718118cf1</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PolyToolkitManager.cs</fileName>
+    <timeStamp>2018-10-30T17:06:10+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PolyToolkitManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>d3365558c9fb5b74ab914a51890c14ab</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PolyTypes.cs</fileName>
+    <timeStamp>2018-10-30T17:08:11+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PolyAsset</string>
+      <string>PolyToolkit.PolyFormat</string>
+      <string>PolyToolkit.PolyFile</string>
+      <string>PolyToolkit.PolyFormatComplexity</string>
+      <string>PolyToolkit.PolyFormatType</string>
+      <string>PolyToolkit.PolyAssetLicense</string>
+      <string>PolyToolkit.PolyVisibilityFilter</string>
+      <string>PolyToolkit.PolyVisibility</string>
+      <string>PolyToolkit.PolyCategory</string>
+      <string>PolyToolkit.PolyOrderBy</string>
+      <string>PolyToolkit.PolyFormatFilter</string>
+      <string>PolyToolkit.PolyMaxComplexityFilter</string>
+      <string>PolyToolkit.PolyRequest</string>
+      <string>PolyToolkit.PolyListAssetsRequest</string>
+      <string>PolyToolkit.PolyListUserAssetsRequest</string>
+      <string>PolyToolkit.PolyListLikedAssetsRequest</string>
+      <string>PolyToolkit.PolyStatus</string>
+      <string>PolyToolkit.PolyStatusOr`1</string>
+      <string>PolyToolkit.PolyBaseResult</string>
+      <string>PolyToolkit.PolyListAssetsResult</string>
+      <string>PolyToolkit.PolyImportResult</string>
+      <string>PolyToolkit.PolyFormatTypeFetchResult</string>
+      <string>PolyToolkit.PolyFetchThumbnailOptions</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>33a7a203f9e09e74e9c082121e4f44c1</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PtAsset.cs</fileName>
+    <timeStamp>2018-10-30T17:06:28+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PtAsset</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ec0c7f9abd0af2840a99d45af7227d62</guid>
+    <fileName>Assets/PolyToolkit/Scripts/PtAssetObject.cs</fileName>
+    <timeStamp>2018-10-30T17:08:32+01:00</timeStamp>
+    <typeFullName>
+      <string>PolyToolkit.PtAssetObject</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ebb2f5314a232c141814a50ba32c9cd4</guid>
+    <fileName>Assets/Script/FloatingTextController.cs</fileName>
+    <timeStamp>2020-04-03T13:09:20.8636264+02:00</timeStamp>
+    <typeFullName>
+      <string>FloatingTextController</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>fd47c28ca10c1b84d840bc1ae11af1e1</guid>
+    <fileName>Assets/Script/FruitBehaviour.cs</fileName>
+    <timeStamp>2020-04-17T15:50:22.9647195+02:00</timeStamp>
+    <typeFullName>
+      <string>FruitBehaviour</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>2848e431568fe274bacfb39a952d3b74</guid>
+    <fileName>Assets/Script/GameManager.cs</fileName>
+    <timeStamp>2020-04-18T21:58:22.9638145+02:00</timeStamp>
+    <typeFullName>
+      <string>GameManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>30c0befbd6f5e704fb9029c671e25009</guid>
+    <fileName>Assets/Script/MenuFunctionality.cs</fileName>
+    <timeStamp>2020-04-17T16:26:51.3947564+02:00</timeStamp>
+    <typeFullName>
+      <string>MenuFunctionality</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>ca49d04a2a8a49f47a2de9c14f44e492</guid>
+    <fileName>Assets/Script/OutlineText.cs</fileName>
+    <timeStamp>2020-04-03T13:04:18.6533786+02:00</timeStamp>
+    <typeFullName>
+      <string>TextOutline</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>034b4c3d3a90d4a4a9df7c259c599c40</guid>
+    <fileName>Assets/Script/SelfDestruct.cs</fileName>
+    <timeStamp>2020-03-31T22:26:08.9788165+02:00</timeStamp>
+    <typeFullName>
+      <string>SelfDestruct</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>14592128f79f7384796cbed8afdcf780</guid>
+    <fileName>Assets/Script/ShakeEffect.cs</fileName>
+    <timeStamp>2020-04-07T12:39:03.6319157+02:00</timeStamp>
+    <typeFullName>
+      <string>ShakeEffect</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+  <TypeDate>
+    <guid>eea4927b887ef204191a8766173c9e6b</guid>
+    <fileName>Assets/Script/SoundManager.cs</fileName>
+    <timeStamp>2020-04-18T16:28:17.6439551+02:00</timeStamp>
+    <typeFullName>
+      <string>SoundManager</string>
+    </typeFullName>
+    <assemblly>Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null</assemblly>
+  </TypeDate>
+</ArrayOfTypeDate>

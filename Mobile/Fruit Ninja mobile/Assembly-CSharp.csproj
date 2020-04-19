@@ -77,9 +77,6 @@
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\PortalView.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\SetDepthTextureMode.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\Spline3D.cs" />
-    <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_2D\AdjustableQuad2D.cs" />
-    <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_2D\Parallax2D.cs" />
-    <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_2D\Spline2D.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_ApplicationComponents\ApplicationComponent_Manager.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_ApplicationComponents\SaveData_ApplicationComponent.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_ScriptHelper\SelectableSphereGizmo.cs" />

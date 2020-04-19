@@ -21,19 +21,12 @@ public class FruitBehaviour : MonoBehaviour
         isActive = true;
         speed = xSpeed;
         this.verticalVelocity = verticalVelocity;
-        transform.position = new Vector3(xStart, 0, -8);
+        transform.position = new Vector3(xStart, 0, -1);
         isSliced = false;
 
         rotationSpeed = Random.Range(-180, 180);
     }
 
-    // Start is called before the first frame update
-    /*private void Start()
-    {
-        LauchFruit(2.0f, 1, -1);
-    }*/
-
-    // Update is called once per frame
     private void Update()
     {
 

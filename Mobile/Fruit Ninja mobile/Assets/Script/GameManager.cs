@@ -44,18 +44,18 @@ public class GameManager : MonoBehaviour
     //UI
     private int score;
     private int highScore;
-    private int lifePoints;
     private int streak;
     private int pointMultiplier;
     private float time;
     public Text scoreText;
     public Text highScoreText;
-    public Image[] lifePointsImages;
     public GameObject pauseMenu;
-    public GameObject deathMenu;
+    public GameObject deathMenuContinue;
+    public GameObject deathMenuGameOver;
     public GameObject damageOverlay;
     public Text timeText;
     public Text deathScoreText;
+    public Text levelText;
 
     private FruitBehaviour getFruit()
     {
@@ -89,7 +89,6 @@ public class GameManager : MonoBehaviour
     public void NewGame()
     {
         score = 0;
-        lifePoints = 5;
         streak = 0;
         pointMultiplier = 1;
         pauseMenu.SetActive(false);
@@ -103,26 +102,25 @@ public class GameManager : MonoBehaviour
         highScore = PlayerPrefs.GetInt("Score");
         highScoreText.text = "Best: " + highScore.ToString();
 
-        //Set lives
-        foreach (Image i in lifePointsImages)
-        {
-            i.enabled = true;
-        }
-
-        /*foreach (FruitBehaviour f in fruit)
-        {
-            Destroy(f.gameObject);
-        }*/
-
         fruit.Clear();
 
         //Death
-        deathMenu.SetActive(false);
+        deathMenuContinue.SetActive(false);
+        deathMenuGameOver.SetActive(false);
 
         multiplier2x.SetActive(false);
         multiplier3x.SetActive(false);
         multiplier4x.SetActive(false);
         multiplier6x.SetActive(false);
+
+        if (SoundManager.Instance.isFirstScenePlayed())
+        {
+            levelText.text = "Level: 2/2";
+        }
+        else
+        {
+            levelText.text = "Level: 1/2";
+        }
     }
 
     public void RestartGame()
@@ -134,15 +132,7 @@ public class GameManager : MonoBehaviour
     {
         streak = 0;
         pointMultiplier = 1;
-        /*if (lifePoints > 0)
-        {
-            lifePoints--;
-            lifePointsImages[lifePoints].enabled = false;
-        }
-        if (lifePoints == 0)
-        {
-            Death();
-        }*/
+
         multiplier2x.SetActive(false);
         multiplier3x.SetActive(false);
         multiplier4x.SetActive(false);
@@ -152,11 +142,40 @@ public class GameManager : MonoBehaviour
     public void Death()
     {
         isPaused = true;
-        deathMenu.SetActive(true);
-        deathScoreText.text = "Your score was:" + "\n" + score;
+        //deathMenuContinue.SetActive(true);
+        //deathScoreText.text = "Your score was:" + "\n" + score;
+
+        SoundManager.Instance.addScenePlayed();
+
+        if (SoundManager.Instance.isFirstScenePlayed())
+        {
+            deathMenuContinue.SetActive(true);
+        }
+        else
+        {
+            deathMenuGameOver.SetActive(true);
+        }
     }
 
-    public IEnumerator Countdown(float timeValue = 300)
+    public void goToNextLevel()
+    {
+        int startIndex = SoundManager.Instance.getStartSceneIndex();
+
+        if (startIndex == 2)
+        {
+            SceneManager.LoadScene(3);
+        }
+        else if (startIndex == 3)
+        {
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            Debug.Log("Something has gone wrong!! with scenestartIndex");
+        }
+    }
+
+    public IEnumerator Countdown(float timeValue = 180)
     {
         time = timeValue;
         while (time > 0)
@@ -168,6 +187,7 @@ public class GameManager : MonoBehaviour
         }
         if (time <= 0)
         {
+            timeText.text = "Time left: 0:0";
             Death();
         }
     }
@@ -266,6 +286,7 @@ public class GameManager : MonoBehaviour
         NewGame();
         StartCoroutine(IncreaseDifficulity());
         StartCoroutine(Countdown());
+        Debug.Log("Starting new game");
     }
 
     private IEnumerator IncreaseDifficulity()
@@ -301,11 +322,11 @@ public class GameManager : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
-            trail.gameObject.SetActive(true);
             Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            pos.z = -8;
+            pos.z = -1;
             trail.position = pos;
-            Instantiate(trail.gameObject, transform);
+            //trail.gameObject.GetComponent<TrailRenderer>().time = 0.1f;
+            trail.gameObject.SetActive(true);
 
             Collider2D[] thisFruitFrame = Physics2D.OverlapPointAll(new Vector2(pos.x, pos.y), LayerMask.GetMask("Fruit"));
             if ((Input.mousePosition - lastMousePosition).sqrMagnitude >= REQUIRED_SLICE_FORCE)
@@ -345,17 +366,21 @@ public class GameManager : MonoBehaviour
                         LoseLifePoint();
                         Camera.main.GetComponent<ShakeEffect>().ShakeCamera(0.7f,0.15f);
                         Destroy(victim.gameObject);
-                        score = score - 10;
+                        score = score - 5;
                         scoreText.text = score.ToString();
                     }
                     }
                 }
                 lastMousePosition = Input.mousePosition;
                 fruitCols = thisFruitFrame;
-            }
+        }
             else
             {
-                trail.gameObject.SetActive(false);
-            }
+            Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            pos.z = -1;
+            trail.position = pos;
+            //trail.gameObject.GetComponent<TrailRenderer>().time = 0;
+            trail.gameObject.SetActive(false);
+        }
         }
     }

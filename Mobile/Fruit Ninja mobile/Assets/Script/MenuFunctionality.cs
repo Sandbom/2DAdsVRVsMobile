@@ -7,20 +7,33 @@ using Adverty;
 
 public class MenuFunctionality : MonoBehaviour
 {
-
+    public Text titleText;
     public Text highScoreText;
+
+
     private int highScore;
+    private int startSceneIndex;
 
     public void StartGame()
     {
-        SceneManager.LoadScene(2);
-        AdvertySDK.Init();
+        startSceneIndex = PlayerPrefs.GetInt("startScene");
+        Debug.Log("Starting Scene: " + startSceneIndex);
+
+        SceneManager.LoadScene(startSceneIndex);
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        ScreenCapture.CaptureScreenshot("Screenshot-start");
+        if (PlayerPrefs.GetInt("startScene") == 2)
+        {
+            titleText.text = "Blackbeard's" + "\n" + "Tavern";
+        }
+        else
+        {
+            titleText.text = "Redbeard's" + "\n" + "Tavern";
+        }
+
         highScore = PlayerPrefs.GetInt("Score");
         highScoreText.text = "High Score: " + highScore.ToString();
     }
