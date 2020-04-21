@@ -20,28 +20,35 @@ public class FruitSpawner : MonoBehaviour
     {
         while (true)
         {
-            int bombspawn = Random.Range(0, 10);
-
-            if (bombspawn < 9)
+            int numberOfSpawns = Random.Range(1,10);
+            if (numberOfSpawns <= 3) numberOfSpawns = 3;
+            if (numberOfSpawns >= 8) numberOfSpawns = 2;
+            else numberOfSpawns = 1;
+            for (int i = 0; i < numberOfSpawns; i++)
             {
+                int bombspawn = Random.Range(0, 10);
 
-                go = Instantiate(fruits[Random.Range(0, fruits.Length - 1)]);
-                temp = go.GetComponent<Rigidbody>();
+                if (bombspawn < 9)
+                {
+
+                    go = Instantiate(fruits[Random.Range(0, fruits.Length - 1)]);
+                    temp = go.GetComponent<Rigidbody>();
+                }
+                else
+                {
+                    Debug.Log("Spawn bomb");
+                    go = Instantiate(fruits[4]);
+                    temp = go.GetComponent<Rigidbody>();
+                }
+                temp.velocity = new Vector3(0f, 5f, -1.5f);
+                temp.angularVelocity = new Vector3(0f, 0f, Random.Range(-5f, 5f));
+                temp.useGravity = true;
+                Vector3 pos = transform.position;
+                pos.x += Random.Range(-1f, 1f);
+                go.transform.position = pos;
+
             }
-            else
-            {
-                Debug.Log("Spawn bomb");
-                go = Instantiate(fruits[4]);
-                temp = go.GetComponent<Rigidbody>();
-            }
-            temp.velocity = new Vector3(0f, 5f, -1.5f);
-            temp.angularVelocity = new Vector3(0f, 0f, Random.Range(-5f, 5f));
-            temp.useGravity = true;
-            Vector3 pos = transform.position;
-            pos.x += Random.Range(-1f, 1f);
-            go.transform.position = pos;
-
-
+         
             yield return new WaitForSeconds(1f);
         }
     }

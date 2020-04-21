@@ -6,9 +6,17 @@ using UnityEngine.SceneManagement;
 public class StartGameScript : MonoBehaviour
 {
     public Material capMaterial;
+    //public Object sceneToStart; funkar inte i VR av nån anledning
 
+
+
+    void Start()
+    {
+
+    }
     void OnCollisionEnter(Collision col)
     {
+        
         GameObject victim = this.GetComponent<Collider>().gameObject;
 
         GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, transform.position, transform.right, capMaterial);
@@ -22,15 +30,17 @@ public class StartGameScript : MonoBehaviour
         {
 
             pieces[1].AddComponent<Rigidbody>();
-            //MeshCollider temp = pieces[1].AddComponent<MeshCollider>();
+            MeshCollider temp = pieces[1].AddComponent<MeshCollider>();
             pieces[0].GetComponent<MeshCollider>().enabled = false;
-            //temp.convex = true;
+            temp.convex = true;
         }
 
-        Destroy(pieces[1], 2f);
-        StartCoroutine(Wait());
+        //Destroy(pieces[1], 2f);
         this.GetComponent<Rigidbody>().useGravity = true;
-        SceneManager.LoadScene("SampleScene");
+        StartCoroutine(Wait());
+        SceneManager.LoadScene("SceneWithAds");
+        //SceneManager.LoadScene(sceneToStart.name); funkar inte i VR av nån anledning
+        
     }
 
     IEnumerator Wait()

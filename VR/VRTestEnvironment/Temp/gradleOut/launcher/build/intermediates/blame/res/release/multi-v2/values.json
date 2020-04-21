@@ -1,0 +1,81 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "D:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "5,7,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "222,322,460",
+                        "endLines": "6,9,13",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "317,455,682"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\L_ars\\.gradle\\caches\\transforms-2\\files-2.1\\db901ecf10060d9f1e563cc1d722e534\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "178",
+                        "endColumns": "43",
+                        "endOffsets": "217"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\L_ars\\.gradle\\caches\\transforms-2\\files-2.1\\403dc11eaa2d1f3d377ddeb50b77f435\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "105",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "284"
+                    },
+                    "to": {
+                        "startLines": "14",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endLines": "17",
+                        "endColumns": "12",
+                        "endOffsets": "866"
+                    }
+                },
+                {
+                    "source": "D:\\Exjobb\\Master-thesis-2020\\VR\\VRTestEnvironment\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,109",
+                        "endColumns": "52,65",
+                        "endOffsets": "105,172"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,67",
+                        "endOffsets": "105,173"
+                    }
+                }
+            ]
+        }
+    ]
+}

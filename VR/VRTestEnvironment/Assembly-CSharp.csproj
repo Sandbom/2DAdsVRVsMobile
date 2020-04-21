@@ -407,10 +407,14 @@
      <Compile Include="Assets\Scripts\FruitDestroyerScript.cs" />
      <Compile Include="Assets\Scripts\FruitSpawner.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
+     <Compile Include="Assets\Scripts\Introfruit.cs" />
      <Compile Include="Assets\Scripts\LineRendererSettings.cs" />
-     <Compile Include="Assets\Scripts\ScreenShakeVR.cs" />
+     <Compile Include="Assets\Scripts\LoadMainMenuScript.cs" />
+     <Compile Include="Assets\Scripts\OnHover.cs" />
+     <Compile Include="Assets\Scripts\QuitGameScript.cs" />
      <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
      <Compile Include="Assets\Scripts\StartGameScript.cs" />
+     <Compile Include="Assets\Scripts\StartSecondScene.cs" />
      <Compile Include="Assets\Scripts\SwordCutter.cs" />
      <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidMessageSystem.cs" />
      <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidNativeDebug.cs" />
@@ -483,7 +487,6 @@
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim_Bumped.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\DebugUI\Fonts\Montserrat\OFL.txt" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBSV2.shader" />
-     <None Include="Assets\Scripts\ScreenShakeVR.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Lightup.shader" />
      <None Include="Assets\adverty\Resources\Shaders\AndroidExternalTextureCopy.shader" />

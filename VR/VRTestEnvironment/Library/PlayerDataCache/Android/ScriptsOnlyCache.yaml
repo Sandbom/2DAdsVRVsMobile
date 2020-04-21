@@ -8,11 +8,16 @@ ScriptsOnlyBuild:
     - FruitDestroyerScript
     - FruitSpawner
     - GameManagerScript
+    - Introfruit
     - LineRendererSettings
+    - LoadMainMenuScript
     - ONSPSettings
-    - ScreenShakeVR
+    - OnHover
+    - OvrAvatarSettings
+    - QuitGameScript
     - SoundManagerScript
     - StartGameScript
+    - StartSecondScene
     - SwordCutter
     Oculus.VR.Editor.dll:
     - OVRConfig
@@ -85,21 +90,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11548}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 11788}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12336}
+      Script: {instanceID: 12344}
     - Class: 114
-      Script: {instanceID: 12346}
+      Script: {instanceID: 12396}
     - Class: 114
-      Script: {instanceID: 12474}
+      Script: {instanceID: 12472}
     - Class: 114
-      Script: {instanceID: 13204}
+      Script: {instanceID: 13428}
     - Class: 114
       Script: {instanceID: 13714}
     - Class: 114
@@ -109,11 +114,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14076}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 14578}
     - Class: 114
-      Script: {instanceID: 14632}
+      Script: {instanceID: 14634}
     - Class: 114
-      Script: {instanceID: 25440}
+      Script: {instanceID: 216876}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -140,7 +145,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/SceneWithAds.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -178,17 +183,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11428}
     - Class: 114
-      Script: {instanceID: 11434}
+      Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11704}
+      Script: {instanceID: 11786}
     - Class: 114
-      Script: {instanceID: 12270}
+      Script: {instanceID: 12268}
     - Class: 114
-      Script: {instanceID: 12336}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12474}
+      Script: {instanceID: 12472}
     - Class: 114
-      Script: {instanceID: 13016}
+      Script: {instanceID: 13014}
+    - Class: 114
+      Script: {instanceID: 13202}
     - Class: 114
       Script: {instanceID: 13656}
     - Class: 114
@@ -198,9 +205,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 14010}
     - Class: 114
-      Script: {instanceID: 14576}
+      Script: {instanceID: 14504}
     - Class: 114
-      Script: {instanceID: 14632}
+      Script: {instanceID: 14578}
+    - Class: 114
+      Script: {instanceID: 14634}
+    - Class: 114
+      Script: {instanceID: 200148}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -216,6 +227,101 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/SceneWithoutAds.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11428}
+    - Class: 114
+      Script: {instanceID: 11702}
+    - Class: 114
+      Script: {instanceID: 11786}
+    - Class: 114
+      Script: {instanceID: 12268}
+    - Class: 114
+      Script: {instanceID: 12334}
+    - Class: 114
+      Script: {instanceID: 12472}
+    - Class: 114
+      Script: {instanceID: 13014}
+    - Class: 114
+      Script: {instanceID: 13202}
+    - Class: 114
+      Script: {instanceID: 13656}
+    - Class: 114
+      Script: {instanceID: 13714}
+    - Class: 114
+      Script: {instanceID: 13764}
+    - Class: 114
+      Script: {instanceID: 14010}
+    - Class: 114
+      Script: {instanceID: 14504}
+    - Class: 114
+      Script: {instanceID: 14578}
+    - Class: 114
+      Script: {instanceID: 14634}
+    - Class: 114
+      Script: {instanceID: 293008}
+    - Class: 114
+      Script: {instanceID: 293016}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -236,12 +342,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
-  - hash:
-      serializedVersion: 2
-      Hash: d3c661506dc86504cb6d54e8e62c1161
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ScreenShakeVR
   - hash:
       serializedVersion: 2
       Hash: bf5cb87c773ea378a3f5ac036aab367b
@@ -670,7 +770,7 @@ ScriptsOnlyBuild:
     className: OVRControllerHelper
   - hash:
       serializedVersion: 2
-      Hash: e033e2421360b826879731e0e73ad5e7
+      Hash: f95e6f4a4e4973b6ded0240e138f6fa9
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManagerScript
@@ -1360,6 +1460,12 @@ ScriptsOnlyBuild:
     className: EyeCamera
   - hash:
       serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartGameScript
+  - hash:
+      serializedVersion: 2
       Hash: 9e5b79eaffb4a828a08c59fb1d2f2d1a
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1906,6 +2012,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OnHover
+  - hash:
+      serializedVersion: 2
       Hash: 17653b21203f576d6729f3490936652e
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -2077,9 +2189,28 @@ ScriptsOnlyBuild:
       Hash: 9b6d332ea542acd074deab23a3b3db32
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: StartGameScript
+    className: StartSecondScene
+  - hash:
+      serializedVersion: 2
+      Hash: 27b1ea94f132f13f80340e1310577866
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Introfruit
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadMainMenuScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitGameScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/MainMenu.unity
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/SceneWithAds.unity
+  - Assets/Scenes/SceneWithoutAds.unity
   playerPath: D:/Exjobb/Master-thesis-2020/VR/VRTestEnvironment/Test.apk

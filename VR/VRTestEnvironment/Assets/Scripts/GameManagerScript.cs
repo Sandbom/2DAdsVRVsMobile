@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
 using Adverty;
+using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
@@ -20,12 +21,18 @@ public class GameManagerScript : MonoBehaviour
     public Text scoreText;
     public Text highscoreText;
     public Text timeText;
-    
+    public Text gameOverText;
+
     public GameObject twoMultiplierText;
     public GameObject threeMultiplierText;
     public GameObject fourMultiplierText;
     public GameObject sixMultiplierText;
 
+    //Game Over UI
+    public GameObject gameOverObject;
+    //public GameObject gameOverObject2;
+    public GameObject spawner;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -63,7 +70,7 @@ public class GameManagerScript : MonoBehaviour
         {
             twoMultiplierText.SetActive(true);
             pointMultiplier = 2;
-            Debug.Log("2x multiplier active");
+            
         }
         else if (currentStreak == 20)
         {
@@ -103,10 +110,16 @@ public class GameManagerScript : MonoBehaviour
         scoreText.text = "Score: " + "\n" + score;
     }
 
-    public IEnumerator Countdown(float timeValue = 30)
+    public IEnumerator Countdown(float timeValue = 120)
     {
         time = timeValue;
-        while(time >= 0)
+        while (time >= 59)
+        {
+            timeText.text = "Time left: " + "\n" + "\n" + "1min " + (time-60) +"s";
+            yield return new WaitForSeconds(1.0f);
+            time--;
+        }
+        while (time >= 0)
         {
             timeText.text = "Time left: " + "\n" + "\n" + time;
             yield return new WaitForSeconds(1.0f);
@@ -131,7 +144,21 @@ public class GameManagerScript : MonoBehaviour
 
     private void GameOver()
     {
-        Debug.Log("Times up!");
+        spawner.SetActive(false);
+        gameOverObject.SetActive(true);
+        if (SceneManager.GetActiveScene().name == "SceneWithoutAds")
+        {
+            gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the tomato to return to first scene" + "\n" + "Slice the banana to quit";
+            //gameOverObject2.SetActive(true);
+        }
+
+        else
+        {
+           // gameOverObject2.SetActive(false);
+            Debug.Log("Times up!");
+            gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the fruit to start next level!";
+            //nextStage.gameObject.SetActive(true);
+        }
     }
 
 }
