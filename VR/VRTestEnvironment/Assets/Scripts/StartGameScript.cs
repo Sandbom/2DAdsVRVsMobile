@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class StartGameScript : MonoBehaviour
 {
     public Material capMaterial;
     //public Object sceneToStart; funkar inte i VR av nån anledning
 
-
+    
 
     void Start()
     {
-
     }
     void OnCollisionEnter(Collision col)
     {
@@ -38,9 +38,9 @@ public class StartGameScript : MonoBehaviour
         //Destroy(pieces[1], 2f);
         this.GetComponent<Rigidbody>().useGravity = true;
         StartCoroutine(Wait());
-        SceneManager.LoadScene("SceneWithAds");
-        //SceneManager.LoadScene(sceneToStart.name); funkar inte i VR av nån anledning
+        SceneManager.LoadScene(StartUpHandlerScript.Instance.getStartSceneIndex());
         
+
     }
 
     IEnumerator Wait()

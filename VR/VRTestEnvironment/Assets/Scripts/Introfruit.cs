@@ -14,9 +14,15 @@ public class Introfruit : MonoBehaviour
     public GameObject textToRemove1;
     public GameObject textToRemove2;
 
+    public Text titleText;
 
     void Start()
     {
+        if (StartUpHandlerScript.Instance.getStartSceneIndex() == 2)
+        {
+            titleText.text = "Blackbeards Tavern";
+        }
+        else titleText.text = "Redbeards Tavern";
 
     }
     void OnCollisionEnter(Collision col)

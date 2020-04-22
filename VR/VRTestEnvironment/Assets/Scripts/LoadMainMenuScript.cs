@@ -38,7 +38,7 @@ public class LoadMainMenuScript : MonoBehaviour
         //Destroy(pieces[1], 2f);
         this.GetComponent<Rigidbody>().useGravity = true;
         StartCoroutine(Wait());
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene(1);
         //SceneManager.LoadScene(sceneToStart.name); funkar inte i VR av nån anledning
 
     }

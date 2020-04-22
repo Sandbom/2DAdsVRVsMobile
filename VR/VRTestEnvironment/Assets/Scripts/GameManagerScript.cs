@@ -21,7 +21,7 @@ public class GameManagerScript : MonoBehaviour
     public Text scoreText;
     public Text highscoreText;
     public Text timeText;
-    public Text gameOverText;
+    
 
     public GameObject twoMultiplierText;
     public GameObject threeMultiplierText;
@@ -30,9 +30,9 @@ public class GameManagerScript : MonoBehaviour
 
     //Game Over UI
     public GameObject gameOverObject;
-    //public GameObject gameOverObject2;
+    public GameObject gameOverObject2;
     public GameObject spawner;
-    
+    public Text titleText;
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +47,15 @@ public class GameManagerScript : MonoBehaviour
         highScore = PlayerPrefs.GetInt("HighScore");
         highscoreText.text = "Highscore: " + "\n" + highScore;
 
+        if (StartUpHandlerScript.Instance.getStartSceneIndex() == 2)
+        {
+            titleText.text = "Blackbeards Tavern";
+        }
+        else titleText.text = "Redbeards Tavern";
+
+
         StartCoroutine(Countdown());
+
     }
 
     // Update is called once per frame
@@ -110,7 +118,7 @@ public class GameManagerScript : MonoBehaviour
         scoreText.text = "Score: " + "\n" + score;
     }
 
-    public IEnumerator Countdown(float timeValue = 120)
+    public IEnumerator Countdown(float timeValue = 5)
     {
         time = timeValue;
         while (time >= 59)
@@ -145,18 +153,19 @@ public class GameManagerScript : MonoBehaviour
     private void GameOver()
     {
         spawner.SetActive(false);
-        gameOverObject.SetActive(true);
-        if (SceneManager.GetActiveScene().name == "SceneWithoutAds")
+        StartUpHandlerScript.Instance.addScenePlayed();
+        if (StartUpHandlerScript.Instance.isFirstScenePlayed())//(SceneManager.GetActiveScene().name == "SceneWithoutAds")
         {
-            gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the tomato to return to first scene" + "\n" + "Slice the banana to quit";
+            gameOverObject.SetActive(true);
+          //  gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the tomato to return to first scene" + "\n" + "Slice the banana to quit";
             //gameOverObject2.SetActive(true);
         }
 
         else
         {
-           // gameOverObject2.SetActive(false);
+            gameOverObject2.SetActive(true);
             Debug.Log("Times up!");
-            gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the fruit to start next level!";
+          //  gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the fruit to start next level!";
             //nextStage.gameObject.SetActive(true);
         }
     }

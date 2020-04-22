@@ -2,16 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+using UnityEngine.UI;
 public class StartSecondScene : MonoBehaviour
 {
     public Material capMaterial;
     //public Object sceneToStart; funkar inte i VR av nån anledning
 
 
+    public Text titleText;
 
     void Start()
     {
+        if (StartUpHandlerScript.Instance.getStartSceneIndex() == 2)
+        {
+            titleText.text = "Blackbeards Tavern";
+        }
+        else titleText.text = "Redbeards Tavern";
 
     }
     void OnCollisionEnter(Collision col)
@@ -38,7 +44,12 @@ public class StartSecondScene : MonoBehaviour
         //Destroy(pieces[1], 2f);
         this.GetComponent<Rigidbody>().useGravity = true;
         StartCoroutine(Wait());
-        SceneManager.LoadScene("SceneWithoutAds");
+        if (StartUpHandlerScript.Instance.getStartSceneIndex() == 2)
+        {
+            SceneManager.LoadScene(3);
+        }
+        else SceneManager.LoadScene(2);
+        //SceneManager.LoadScene("SceneWithoutAds");
         //SceneManager.LoadScene(sceneToStart.name); funkar inte i VR av nån anledning
        
     }

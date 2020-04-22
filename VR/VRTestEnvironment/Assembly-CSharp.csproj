@@ -408,13 +408,12 @@
      <Compile Include="Assets\Scripts\FruitSpawner.cs" />
      <Compile Include="Assets\Scripts\GameManagerScript.cs" />
      <Compile Include="Assets\Scripts\Introfruit.cs" />
-     <Compile Include="Assets\Scripts\LineRendererSettings.cs" />
      <Compile Include="Assets\Scripts\LoadMainMenuScript.cs" />
-     <Compile Include="Assets\Scripts\OnHover.cs" />
      <Compile Include="Assets\Scripts\QuitGameScript.cs" />
      <Compile Include="Assets\Scripts\SoundManagerScript.cs" />
      <Compile Include="Assets\Scripts\StartGameScript.cs" />
      <Compile Include="Assets\Scripts\StartSecondScene.cs" />
+     <Compile Include="Assets\Scripts\StartUpHandlerScript.cs" />
      <Compile Include="Assets\Scripts\SwordCutter.cs" />
      <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidMessageSystem.cs" />
      <Compile Include="Assets\adverty\Scripts\PlatformSpecific\AndroidNativeDebug.cs" />
