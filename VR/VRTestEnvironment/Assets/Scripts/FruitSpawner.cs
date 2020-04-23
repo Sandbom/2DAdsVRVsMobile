@@ -10,14 +10,21 @@ public class FruitSpawner : MonoBehaviour
     private GameObject go;
     private Rigidbody temp;
 
+    public float deltaSpawn;
     // Start is called before the first frame update
     void Start()
     {
+        deltaSpawn = 1.1f;
         StartCoroutine(SpawnFruit());
+        StartCoroutine(IncreaseSpawnSpeed());
+
     }
+
+  
 
     IEnumerator SpawnFruit()
     {
+      
         while (true)
         {
             int numberOfSpawns = Random.Range(1,10);
@@ -36,7 +43,6 @@ public class FruitSpawner : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("Spawn bomb");
                     go = Instantiate(fruits[4]);
                     temp = go.GetComponent<Rigidbody>();
                 }
@@ -48,14 +54,22 @@ public class FruitSpawner : MonoBehaviour
                 go.transform.position = pos;
 
             }
-         
-            yield return new WaitForSeconds(1f);
+          
+             yield return new WaitForSeconds(deltaSpawn);
+
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator IncreaseSpawnSpeed()
     {
+        while (true)
+        {
+            Debug.Log(deltaSpawn);
         
+            deltaSpawn -= 0.1f;
+            Debug.Log(deltaSpawn);
+            yield return new WaitForSeconds(10);
+        }
     }
+
 }

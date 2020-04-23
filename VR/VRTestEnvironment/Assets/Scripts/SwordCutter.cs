@@ -14,7 +14,7 @@ public class SwordCutter : MonoBehaviour {
     void OnCollisionEnter(Collision collision)
     {
 
-        Debug.Log("In Collsion - Slicing a fruit");
+
         GameObject victim = collision.collider.gameObject;
 
         if (victim.name == "Tomato(Clone)" || victim.name == "Carrot(Clone)")

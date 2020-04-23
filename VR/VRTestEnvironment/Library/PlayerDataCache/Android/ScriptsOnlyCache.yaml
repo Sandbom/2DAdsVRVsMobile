@@ -9,15 +9,14 @@ ScriptsOnlyBuild:
     - FruitSpawner
     - GameManagerScript
     - Introfruit
-    - LineRendererSettings
     - LoadMainMenuScript
     - ONSPSettings
-    - OnHover
     - OvrAvatarSettings
     - QuitGameScript
     - SoundManagerScript
     - StartGameScript
     - StartSecondScene
+    - StartUpHandlerScript
     - SwordCutter
     Oculus.VR.Editor.dll:
     - OVRConfig
@@ -65,15 +64,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
     - Class: 65
-      Script: {instanceID: 0}
-    - Class: 72
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -85,43 +80,29 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 109
-      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11440}
     - Class: 114
-      Script: {instanceID: 11548}
+      Script: {instanceID: 11460}
     - Class: 114
-      Script: {instanceID: 11702}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 12334}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 12344}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 12396}
+      Script: {instanceID: 13456}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 13428}
+      Script: {instanceID: 14042}
     - Class: 114
-      Script: {instanceID: 13714}
+      Script: {instanceID: 14612}
     - Class: 114
-      Script: {instanceID: 13736}
-    - Class: 114
-      Script: {instanceID: 14010}
-    - Class: 114
-      Script: {instanceID: 14076}
-    - Class: 114
-      Script: {instanceID: 14578}
-    - Class: 114
-      Script: {instanceID: 14634}
-    - Class: 114
-      Script: {instanceID: 216876}
+      Script: {instanceID: 14668}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 120
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -137,13 +118,54 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Preloader.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 72
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 12362}
+    - Class: 114
+      Script: {instanceID: 12414}
+    - Class: 114
+      Script: {instanceID: 13766}
+    - Class: 114
+      Script: {instanceID: 14108}
+    - Class: 114
+      Script: {instanceID: 36322}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
     Assets/Scenes/SceneWithAds.unity:
     - Class: 1
@@ -181,37 +203,41 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11440}
     - Class: 114
       Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 12334}
+      Script: {instanceID: 12286}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 13014}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 13714}
+      Script: {instanceID: 13060}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13226}
     - Class: 114
-      Script: {instanceID: 14010}
+      Script: {instanceID: 13686}
     - Class: 114
-      Script: {instanceID: 14504}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 14578}
+      Script: {instanceID: 13794}
     - Class: 114
-      Script: {instanceID: 14634}
+      Script: {instanceID: 14042}
     - Class: 114
-      Script: {instanceID: 200148}
+      Script: {instanceID: 14538}
+    - Class: 114
+      Script: {instanceID: 14612}
+    - Class: 114
+      Script: {instanceID: 14668}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -219,6 +245,8 @@ ScriptsOnlyBuild:
     - Class: 135
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -272,39 +300,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11428}
+      Script: {instanceID: 11440}
     - Class: 114
       Script: {instanceID: 11702}
     - Class: 114
-      Script: {instanceID: 11786}
+      Script: {instanceID: 11720}
     - Class: 114
-      Script: {instanceID: 12268}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 12334}
+      Script: {instanceID: 12286}
     - Class: 114
-      Script: {instanceID: 12472}
+      Script: {instanceID: 12352}
     - Class: 114
-      Script: {instanceID: 13014}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 13202}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 13656}
+      Script: {instanceID: 13036}
     - Class: 114
-      Script: {instanceID: 13714}
+      Script: {instanceID: 13060}
     - Class: 114
-      Script: {instanceID: 13764}
+      Script: {instanceID: 13686}
     - Class: 114
-      Script: {instanceID: 14010}
+      Script: {instanceID: 13744}
     - Class: 114
-      Script: {instanceID: 14504}
+      Script: {instanceID: 13794}
     - Class: 114
-      Script: {instanceID: 14578}
+      Script: {instanceID: 14042}
     - Class: 114
-      Script: {instanceID: 14634}
+      Script: {instanceID: 14612}
     - Class: 114
-      Script: {instanceID: 293008}
-    - Class: 114
-      Script: {instanceID: 293016}
+      Script: {instanceID: 14668}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -320,8 +346,6 @@ ScriptsOnlyBuild:
     - Class: 198
       Script: {instanceID: 0}
     - Class: 199
-      Script: {instanceID: 0}
-    - Class: 213
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -348,6 +372,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SocialPlatformManager
+  - hash:
+      serializedVersion: 2
+      Hash: 8478ab90fb99718a5970b932f8c32cc3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Introfruit
   - hash:
       serializedVersion: 2
       Hash: 329a4358a2c40fe3c40f44951200bd91
@@ -378,12 +408,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OculusSpatializerUnity
-  - hash:
-      serializedVersion: 2
-      Hash: d8fcf0a32be58508ad5068674fa69088
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LineRendererSettings
   - hash:
       serializedVersion: 2
       Hash: e4c511fcf31a39b6e614595be7309046
@@ -474,6 +498,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: OvrAvatarRenderComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LoadMainMenuScript
   - hash:
       serializedVersion: 2
       Hash: b2c49db11310c73f73ac8c392fbc5715
@@ -770,7 +800,7 @@ ScriptsOnlyBuild:
     className: OVRControllerHelper
   - hash:
       serializedVersion: 2
-      Hash: f95e6f4a4e4973b6ded0240e138f6fa9
+      Hash: 39443c577c24de6e02055a1d130e0db3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManagerScript
@@ -954,6 +984,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRAutoDestroyInMRC
+  - hash:
+      serializedVersion: 2
+      Hash: 7fa8adcfd479daeae5096353c475bb00
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StartSecondScene
   - hash:
       serializedVersion: 2
       Hash: 80913a2dbb708e0f503739c081ba230f
@@ -1218,6 +1254,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LocomotionController
+  - hash:
+      serializedVersion: 2
+      Hash: 9b6d332ea542acd074deab23a3b3db32
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: QuitGameScript
   - hash:
       serializedVersion: 2
       Hash: 45f2a4e63a8b43166e3f85c4d543f00d
@@ -2012,12 +2054,6 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OnHover
-  - hash:
-      serializedVersion: 2
       Hash: 17653b21203f576d6729f3490936652e
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -2186,30 +2222,13 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 9b6d332ea542acd074deab23a3b3db32
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: StartSecondScene
-  - hash:
-      serializedVersion: 2
-      Hash: 27b1ea94f132f13f80340e1310577866
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Introfruit
-  - hash:
-      serializedVersion: 2
-      Hash: 9b6d332ea542acd074deab23a3b3db32
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: LoadMainMenuScript
-  - hash:
-      serializedVersion: 2
-      Hash: 9b6d332ea542acd074deab23a3b3db32
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: QuitGameScript
+    className: StartUpHandlerScript
   platform: 13
   scenePathNames:
+  - Assets/Scenes/Preloader.unity
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SceneWithAds.unity
   - Assets/Scenes/SceneWithoutAds.unity

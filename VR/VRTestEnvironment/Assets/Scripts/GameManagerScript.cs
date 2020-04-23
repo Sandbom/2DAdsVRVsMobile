@@ -16,11 +16,13 @@ public class GameManagerScript : MonoBehaviour
     private int currentStreak;
 
     //Game control variables
-    private float time;
+    public float time;
 
     public Text scoreText;
     public Text highscoreText;
     public Text timeText;
+
+    private float deltaSpawn = 1.0f;
     
 
     public GameObject twoMultiplierText;
@@ -55,7 +57,6 @@ public class GameManagerScript : MonoBehaviour
 
 
         StartCoroutine(Countdown());
-
     }
 
     // Update is called once per frame
@@ -100,8 +101,7 @@ public class GameManagerScript : MonoBehaviour
         }
 
         score += pointMultiplier;
-        Debug.Log("Score: " + score);
-        Debug.Log("highscore = " +"\n"+ highScore);
+        
         scoreText.text = "Score: "+ "\n" + score;
 
         if (score > highScore)
@@ -118,10 +118,10 @@ public class GameManagerScript : MonoBehaviour
         scoreText.text = "Score: " + "\n" + score;
     }
 
-    public IEnumerator Countdown(float timeValue = 5)
+    public IEnumerator Countdown(float timeValue = 120)
     {
         time = timeValue;
-        while (time >= 59)
+        while (time >= 60)
         {
             timeText.text = "Time left: " + "\n" + "\n" + "1min " + (time-60) +"s";
             yield return new WaitForSeconds(1.0f);
@@ -164,10 +164,11 @@ public class GameManagerScript : MonoBehaviour
         else
         {
             gameOverObject2.SetActive(true);
-            Debug.Log("Times up!");
           //  gameOverText.text = "Times up! " + "\n" + "Your score was: " + "\n" + score + "\n" + "Slice the fruit to start next level!";
             //nextStage.gameObject.SetActive(true);
         }
     }
+
+    
 
 }

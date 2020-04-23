@@ -8,13 +8,18 @@ public class StartGameScript : MonoBehaviour
 {
     public Material capMaterial;
     //public Object sceneToStart; funkar inte i VR av nån anledning
-
-    
+    public Text titleText;
 
     void Start()
     {
+        if (StartUpHandlerScript.Instance.getStartSceneIndex() == 2)
+        {
+            titleText.text = "Blackbeards Tavern";
+        }
+        else titleText.text = "Redbeards Tavern";
+
     }
-    void OnCollisionEnter(Collision col)
+void OnCollisionEnter(Collision col)
     {
         
         GameObject victim = this.GetComponent<Collider>().gameObject;

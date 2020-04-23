@@ -1,0 +1,22 @@
+com.DefaultCompany.VRTestEnvironment
+drawable advrty_logo
+drawable back_page
+drawable close_button
+drawable forward_page
+id adverty_web_view
+id adverty_web_view_back_page
+id adverty_web_view_close_btn
+id adverty_web_view_forward_page
+layout web_view_layout
+mipmap app_icon
+mipmap app_icon_round
+mipmap ic_launcher_background
+mipmap ic_launcher_foreground
+string app_name
+string game_view_content_description
+string lib_name
+style BaseUnityTheme
+style UnityThemeSelector
+style UnityThemeSelector_Translucent
+style web_view_theme
+xml network_sec_config
