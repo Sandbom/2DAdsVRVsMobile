@@ -41222,7 +41222,10 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Good luck
 
-    Slice the tomato to start the game'
+    You have 2 minutes when the games starts.
+
+    Slice the
+    tomato to start the game'
 --- !u!222 &1390340372
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -4,10 +4,13 @@ using UnityEngine.UI;
 using UnityEngine;
 using Adverty;
 using UnityEngine.SceneManagement;
+using Adverty.PlatformSpecific;
+
 
 public class GameManagerScript : MonoBehaviour
 {
     public static GameManagerScript Instance { get; set; }
+
 
     //Score variables
     private int score;
@@ -39,6 +42,8 @@ public class GameManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        QualitySettings.antiAliasing = 2;   
+
         Instance = this;
         AdvertySDK.Init();
         score = 0;

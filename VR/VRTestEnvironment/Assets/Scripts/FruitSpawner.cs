@@ -68,7 +68,7 @@ public class FruitSpawner : MonoBehaviour
         
             deltaSpawn -= 0.1f;
             Debug.Log(deltaSpawn);
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(30);
         }
     }
 
